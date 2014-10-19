@@ -73,7 +73,7 @@ plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-export MAMP_PHP=/Applications/MAMP/bin/php/php5.3.6/bin
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/opt/local/bin:/Users/bradparbs/Dropbox/Sites:$PATH
