@@ -78,4 +78,4 @@ source $ZSH/oh-my-zsh.sh
 export MAMP_PHP=/Applications/MAMP/bin/php/php5.3.6/bin
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/bradparbs/.rvm/gems/ruby-1.9.3-p327/bin:/Users/bradparbs/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/bradparbs/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/bradparbs/.rvm/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/opt/local/bin:/Users/bradparbs/.rvm/bin:$HOME/.composer/bin:$MAMP_PHP:/Users/bradparbs/Dropbox/Sites:$PATH
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/opt/local/bin:/Users/bradparbs/Dropbox/Sites:$PATH
