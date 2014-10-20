@@ -73,6 +73,8 @@ plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+function gi() { curl http://www.gitignore.io/api/$@; }
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
 
 # Customize to your needs...
