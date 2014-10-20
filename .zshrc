@@ -78,4 +78,16 @@ function gi() { curl http://www.gitignore.io/api/$@; }
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin:/opt/local/bin:/Users/bradparbs/Dropbox/Sites:$PATH
+PATH=${PATH}:/usr/bin
+PATH=${PATH}:/bin
+PATH=${PATH}:/usr/sbin
+PATH=${PATH}:/sbin
+PATH=${PATH}:/usr/local/bin
+PATH=${PATH}:/usr/local/git/bin
+PATH=${PATH}:/opt/sm/bin
+PATH=${PATH}:/opt/sm/pkg/active/bin
+PATH=${PATH}:/opt/sm/pkg/active/sbin
+PATH=${PATH}:/Users/bradparbs/Dropbox/Sites
+
+
+export PATH=${PATH}
