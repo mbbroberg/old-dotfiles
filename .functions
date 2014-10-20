@@ -1,0 +1,11 @@
+function gi() {
+	curl http://www.gitignore.io/api/$@;
+}
+
+resest-mod-dir(){
+	git checkout -- ` git ls-files -m -- "$*"`
+}
+
+function mkd() {
+    mkdir -p "$@" && cd "$@";
+}
