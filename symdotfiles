@@ -16,6 +16,7 @@
 # =============================================================================
 
 THIS_SCRIPT=`basename $0`
+rm -rf .DS_Store
 WORKING_DIR=`pwd`
 shopt -s dotglob
 ALLFILES=*
