@@ -4,7 +4,7 @@ ZSH_THEME="brad-muse" # Set name of the theme to load.
 DEFAULT_USER="bradparbs@bradparbs"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting)
+plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting brew brew-cask)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases
