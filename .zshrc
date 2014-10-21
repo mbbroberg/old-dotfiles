@@ -7,9 +7,9 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source aliases
-souce functions
-source exports
+source ~/.aliases
+source ~/.functions
+source ~/.exports
 
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
