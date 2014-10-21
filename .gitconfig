@@ -3,7 +3,7 @@
 	email = brad@bradparbs.com
 [core]
 	editor = vim
-	excludesfile = ~/.global_ignore
+	excludesfile = /Users/bradparbs/.global_ignore
 
     # Enable parallel I/O for operations like "git diff".
     preloadindex = true
@@ -89,3 +89,9 @@
 [push]
 	defaul = matching
 	default = matching
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
