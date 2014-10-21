@@ -22,3 +22,6 @@ PATH=${PATH}:/opt/sm/pkg/active/bin
 PATH=${PATH}:/opt/sm/pkg/active/sbin
 PATH=${PATH}:/Users/bradparbs/Dropbox/Sites
 export PATH=${PATH}
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
