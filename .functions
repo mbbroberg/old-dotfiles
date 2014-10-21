@@ -7,7 +7,7 @@ resest-mod-dir(){
 }
 
 function mkd() {
-    mkdir -p "$@" && cd "$@";
+    mkdir -p -- "$@" && cd -- "$@"
 }
 
 # find shorthand
