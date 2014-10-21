@@ -74,6 +74,8 @@
 	publish = !legit publish \"$@\"
 	graft = !legit graft \"$@\"
 
+    go = checkout -B
+
 [credential]
 	helper = osxkeychain
 
