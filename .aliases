@@ -1,13 +1,19 @@
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
-alias lss="ls -Gal"
-alias lp="ls -p"
-alias h="history"
-alias "cd.."="cd .."
+alias ssource='source ~/.zshrc'
+
 alias box="cd ~/Dropbox/"
 alias working="cd ~/Dropbox/Working/"
 alias wds="cd ~/Dropbox/WDS/"
-alias unhidelibrary="chflags nohidden /Users/bradparbs/Library"
+alias sites="cd ~/Dropbox/Sites/www"
+alias wpc="cd htdocs/wp-content"
+
+alias lss="ls -Gal"
+alias lp="ls -p"
+
+alias h="history"
+alias "cd.."="cd .."
+
 alias hosts="subl /etc/hosts"
 alias c="cd"
 alias g="git"
@@ -15,23 +21,27 @@ alias gs="git status"
 alias gcm="git commit -m"
 alias e="subl ."
 alias ql="qlmanage -p"
+
 alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
 alias yoloo="git commit -am '`curl -s http://whatthecommit.com/index.txt`' && git push origin master --force"
+
+alias unhidelibrary="chflags nohidden /Users/bradparbs/Library"
 alias showdotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | printf '=> Public key copied to pasteboard.\n'";
-alias gifs='ssh gifs@96.30.0.170'
-alias sites="cd ~/Dropbox/Sites/www"
+
 alias v=vagrant
 alias vv=vvv
 alias vup="vagrant up && vagrant provision && vagrant ssh"
-alias caff="caffeinate -dis"
 alias vp="vagrant provision"
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
-alias wpc="cd htdocs/wp-content"
 alias vs='sites && vagrant ssh'
-alias ssource='source ~/.zshrc'
+
+alias caff="caffeinate -dis"
+
 # http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
