@@ -4,8 +4,18 @@
 [core]
 	editor = vim
 	excludesfile = ~/.global_ignore
+
+    # Enable parallel I/O for operations like "git diff".
+    preloadindex = true
+
+    # Use 12 characters for the abbreviated commit hash. I can currently make
+    # do with 10, but this should provide a certain level of safety for the
+    # near-ish future. See the interesting and well-researched article at
+    # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
+    abbrev = 12
 [mergetool]
 	keepBackup = true
+
 [color]
     branch = auto
     diff = auto
@@ -27,6 +37,7 @@
     added = yellow
     changed = green
     untracked = cyan
+
 [alias]
     ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
@@ -62,13 +73,17 @@
 	sync = !legit sync \"$@\"
 	publish = !legit publish \"$@\"
 	graft = !legit graft \"$@\"
+
 [credential]
 	helper = osxkeychain
+
 [core]
 	editor = vim
 	exludesfile = ~/.global_ignore
+
 [help]
 	autocorrect = 1
+
 [push]
 	defaul = matching
 	default = matching
