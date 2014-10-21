@@ -20,8 +20,7 @@ PATH=${PATH}:/usr/local/git/bin
 PATH=${PATH}:/opt/sm/bin
 PATH=${PATH}:/opt/sm/pkg/active/bin
 PATH=${PATH}:/opt/sm/pkg/active/sbin
+PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:/Users/bradparbs/Dropbox/Sites
 export PATH=${PATH}
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
