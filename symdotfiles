@@ -26,6 +26,7 @@ for file in $ALLFILES; do
 	if [ $THIS_SCRIPT != $file ] && [ '.git' != $file ]
 		then
 			echo "Processing $file file..."
+			rm ../$file
 			ln -s $WORKING_DIR/$file ../$file
 	fi
 done
