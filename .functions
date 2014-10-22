@@ -19,3 +19,7 @@ function f() {
 cp_p () {
   rsync -WavP --human-readable --progress $1 $2
 }
+
+function please() {
+	sudo $1
+}
