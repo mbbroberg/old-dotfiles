@@ -5,7 +5,7 @@ alias ssource='source ~/.zshrc'
 alias box="cd ~/Dropbox/"
 alias working="cd ~/Dropbox/Working/"
 alias wds="cd ~/Dropbox/WDS/"
-alias sites="cd ~/Dropbox/Sites/www"
+alias sites="cd ~/Sites/www"
 alias wpc="cd htdocs/wp-content"
 
 alias lss="ls -Gal"
