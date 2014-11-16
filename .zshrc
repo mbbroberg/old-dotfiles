@@ -24,3 +24,4 @@ PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:/Users/bradparbs/Sites
 export PATH=${PATH}
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
