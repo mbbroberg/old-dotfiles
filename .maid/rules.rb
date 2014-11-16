@@ -2,7 +2,7 @@ Maid.rules do
 
 	#
 	# Screenshots
-	#
+	#›
 	rule 'Screenshots' do
 		dir('~/Desktop/Screen Shot *').each do |path|
 			trash(path)
@@ -28,7 +28,7 @@ Maid.rules do
 		`brew cask update`
 	end
 	rule 'Updating Oh My Zsh' do #This is a kind of hacky way to do it
-		`cd ~/.oh-my-zsh && g add . && git commit -m "local updates" && git pull --rebase origin master`
+		`cd ~/.oh-my-zsh && git add . && git commit -m "local updates" && git pull --rebase origin master`
 	end
 
 	#
@@ -42,6 +42,22 @@ Maid.rules do
 		dir('~/Downloads/*.{zip,tgz,gz,rar,tar}').each do |path|
 			if downloaded_from(path).any? { |u| u.match %r{//([^\/]+\.)?github\.com\/} }
 				trash path
+			end
+		end
+	end
+
+	rule 'Trash downloads over a month old' do
+		dir('~/Downloads/*').each do |path|
+			if 4.weeks.since?(accessed_at(path))
+				trash(path)
+			end
+		end
+	end
+
+	rule 'Remove empty directories' do
+		dir(['~/Downloads/*']).each do |path|
+			if File.directory?(path) && dir("#{ path }/*").empty?
+				trash(path)
 			end
 		end
 	end
