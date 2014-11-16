@@ -23,3 +23,11 @@ cp_p () {
 function please() {
 	sudo $1
 }
+
+function app-install(){
+	brew cask install $@ --appdir=/Applications --caskroom=/etc/Caskroom
+}
+
+function lol(){
+	$@ | lolcat
+}
