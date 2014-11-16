@@ -18,15 +18,4 @@ Maid.rules do
 		end
 	end
 
-	#
-	# Trash
-	#
-
-	rule 'Take out the Trash' do
-		dir('~/.Trash/*').each do |p|
-			remove(p) if accessed_at(p) > 20.days.ago
-		end
-	end
-
-
 end
