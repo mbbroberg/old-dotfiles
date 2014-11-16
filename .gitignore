@@ -1,2 +1,4 @@
 dotfiles.sublime-project
 dotfiles.sublime-workspace
+.maid/maid.log
+.maid/rules.sample.rb
