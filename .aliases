@@ -40,7 +40,10 @@ alias vup="vagrant up && vagrant provision && vagrant ssh"
 alias vp="vagrant provision"
 alias vs='sites && vagrant ssh'
 
+alias fizz="cd  /Users/bradparbs/Dropbox/WDS/Working/fizzybot; heroku restart; cd -;"
+
 alias caff="caffeinate -dis"
+alias lc="lolcat"
 
 # http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
