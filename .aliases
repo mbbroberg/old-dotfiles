@@ -48,3 +48,7 @@ alias lc="lolcat"
 # http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
+
+
+# vim plugin / bundle installs
+alias viminstall="vim +PluginInstall +qall && vim +BundleInstall +qall"
