@@ -57,6 +57,7 @@ Plugin 'gmarik/Vundle.vim'" let Vundle manage Vundle, required
 Plugin 'tomasr/molokai'
 Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline'
+Plugin 'airblade/vim-gitgutter'
 Bundle 'shawncplus/phpcomplete.vim'
 
 call vundle#end()
