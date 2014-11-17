@@ -3,9 +3,17 @@ Maid.rules do
 	#
 	# Screenshots
 	#›
-	rule 'Screenshots' do
+	rule 'Desktop Screenshots' do
 		dir('~/Desktop/Screen Shot *').each do |path|
 			trash(path)
+		end
+	end
+
+	rule 'Dropbox Screenshots' do
+		dir('~/Desktop/Screen Shot *').each do |path|
+			if 1.week.since?(accessed_at(path))
+				trash(path)
+			end
 		end
 	end
 
