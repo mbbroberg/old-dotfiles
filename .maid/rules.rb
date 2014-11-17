@@ -14,7 +14,8 @@ Maid.rules do
 	#
 	rule 'Database Backups' do
 		dir('~/Desktop/*.sql').each do |path|
-			move(path, '~/Documents/DB Backups')
+			mkdir( '~/Documents/DB Backups/' + Time.now.strftime("%Y-%m-%d") )
+			move(path, '~/Documents/DB Backups/' + Time.now.strftime("%Y-%m-%d") )
 		end
 	end
 
