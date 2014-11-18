@@ -54,3 +54,5 @@ alias viminstall="vim +PluginInstall +qall && vim +BundleInstall +qall"
 alias v=vi
 
 alias currentdate='date "+%Y.%m.%d"'
+
+alias fs='fortune|cowsay'
