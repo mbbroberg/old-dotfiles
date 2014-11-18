@@ -75,3 +75,10 @@ let g:airline_powerline_fonts = 1
 
 " Always display the status line, even if only one window is displayed
 set laststatus=2
+
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
+" jk is escape
+inoremap jk <esc>
