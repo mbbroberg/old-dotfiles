@@ -27,3 +27,5 @@ PATH=${PATH}:~/Sites
 PATH=${PATH}:~/Dropbox/Working/Tools
 
 export PATH=${PATH}
+
+fortune | cowsay | lolcat

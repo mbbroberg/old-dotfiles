@@ -55,4 +55,4 @@ alias v=vi
 
 alias currentdate='date "+%Y.%m.%d"'
 
-alias fs='fortune|cowsay'
+alias fs='fortune | cowsay | lolcat'
