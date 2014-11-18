@@ -4,7 +4,7 @@ DEFAULT_USER="bradparbs@bradparbs"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
 
-plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting brew brew-cask z)
+plugins=(git lol git-extras brew brew-cask osx vagrant github zsh-syntax-highlighting z)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.aliases
