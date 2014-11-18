@@ -23,7 +23,14 @@ ALLFILES=*
 
 echo "Making those symlinks"
 for file in $ALLFILES; do
-	if [ $THIS_SCRIPT != $file ] && [ '.git' != $file ] && [ 'zsh-custom' != $file ] && [ 'misc' != $file ] && [ 'dotfiles.sublime-project' != $file ] && [ 'dotfiles.sublime-workspace' != $file ]
+	if
+		[ $THIS_SCRIPT != $file ] &&
+		[ '.git' != $file ] &&
+		[ 'zsh-custom' != $file ] &&
+		[ 'misc' != $file ] &&
+		[ 'dotfiles.sublime-project' != $file ] &&
+		[ 'dotfiles.sublime-workspace' != $file ]
+
 		then
 			echo "Processing $file file..."
 			rm ../$file
