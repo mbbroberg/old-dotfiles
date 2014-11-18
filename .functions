@@ -53,3 +53,14 @@ function up()
         done
     fi
 }
+
+# git checkout branch
+function gcb(){
+    git fetch
+    git checkout -b origin/$@ $@
+}
+
+# diff to prod
+function prod_diff(){
+    git diff prod $@
+}
