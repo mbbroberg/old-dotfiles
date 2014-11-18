@@ -1,9 +1,7 @@
 ZSH=$HOME/.oh-my-zsh # Path to your oh-my-zsh configuration.
 ZSH_THEME="brad-muse" # Set name of the theme to load.
-
 DEFAULT_USER="bradparbs@bradparbs"
 COMPLETION_WAITING_DOTS="true"
-
 DISABLE_AUTO_UPDATE=true
 
 plugins=(git lol git-extras brew osx vagrant github zsh-syntax-highlighting brew brew-cask z)
@@ -27,5 +25,3 @@ PATH=${PATH}:~/Sites
 PATH=${PATH}:~/Dropbox/Working/Tools
 
 export PATH=${PATH}
-
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
