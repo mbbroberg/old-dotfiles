@@ -21,7 +21,9 @@ PATH=${PATH}:/opt/sm/bin
 PATH=${PATH}:/opt/sm/pkg/active/bin
 PATH=${PATH}:/opt/sm/pkg/active/sbin
 PATH=${PATH}:/usr/local/heroku/bin
-PATH=${PATH}:/Users/bradparbs/Sites
+PATH=${PATH}:~/Sites
+PATH=${PATH}:~/Dropbox/Working/Tools
+
 export PATH=${PATH}
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
