@@ -37,7 +37,7 @@ Maid.rules do
 		`brew cask update`
 	end
 	rule 'Updating Oh My Zsh' do #This is a kind of hacky way to do it
-		`upgrade_oh_my_zsh`
+		`cd ~/.oh-my-zsh && git add . && git commit -m "local updates" && git pull --rebase origin master`
 	end
 
 	#
