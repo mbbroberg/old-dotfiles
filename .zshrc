@@ -27,5 +27,3 @@ PATH=${PATH}:~/Sites
 PATH=${PATH}:~/Dropbox/Working/Tools
 
 export PATH=${PATH}
-
-fs
