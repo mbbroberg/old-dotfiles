@@ -28,6 +28,16 @@ Maid.rules do
 	end
 
 	#
+	# Other Desktop Files
+	#
+	rule 'Other Desktop Files' do
+		dir('~/Desktop/*.*').each do |path|
+			mkdir( '~/Desktop/Desktop-' + Time.now.strftime("%Y-%m-%d") )
+			move(path, '~/Desktop/Desktop-' + Time.now.strftime("%Y-%m-%d") )
+		end
+	end
+
+	#
 	# Update all our Applications, brew, oh my zsh and such
 	#
 	rule 'Updating Brew' do
