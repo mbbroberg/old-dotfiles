@@ -57,7 +57,7 @@ function up()
 # git checkout branch
 function gcb(){
     git fetch
-    git checkout -b origin/$@ $@
+    git checkout -b $@ origin/$@
 }
 
 # diff to prod
