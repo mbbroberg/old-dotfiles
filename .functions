@@ -1,46 +1,45 @@
-function gi() {
+function gi()  {
 	curl http://www.gitignore.io/api/$@;
 }
 
-resest-mod-dir(){
+resest-mod-dir() {
 	git checkout -- ` git ls-files -m -- "$*"`
 }
 
-function mkd() {
+function mkd()  {
     mkdir -p -- "$@" && cd -- "$@"
 }
 
 # find shorthand
-function f() {
+function f()  {
     find . -name "$1"
 }
 
 # Copy w/ progress
-cp_p () {
+cp_p ()  {
   rsync -WavP --human-readable --progress $1 $2
 }
 
-function please() {
+function please()  {
 	sudo $1
 }
 
-function app-install(){
+function app-install() {
 	brew cask install $@ --appdir=/Applications --caskroom=/etc/Caskroom
 }
 
-function lol(){
+function lol() {
 	$@ | lolcat
 }
 
-function chrome(){
+function chrome() {
 	open $@ --args --allow-file-access-from-files
 }
 
 # Go up N directories
 # usage: up N
 # taken from https://github.com/anishathalye/dotfiles/commit/c7256407e27263abc21bed2667a81373fa958d25#diff-1f7e07657816dcfba81e81892df0eac7R30
-function up()
-{
+function up() {
     if [[ "${1}" == "" ]]; then
         cd ..
     elif ! [[ "${1}" =~ ^[0-9]+$ ]]; then
@@ -55,13 +54,13 @@ function up()
 }
 
 # git checkout branch
-function gcb(){
+function gcb() {
     git fetch
     git checkout -b $@ origin/$@
 }
 
 # diff to prod
-function prod_diff(){
+function prod_diff() {
     git diff prod $@
 }
 
