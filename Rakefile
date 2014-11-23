@@ -1,9 +1,12 @@
 require 'rake'
 require 'fileutils'
 
-task :default => 'install'
+task :default => 'setup'
 
-task :install do
+#
+# Creates the symlinks for what we need to create
+#
+task :setup do
 	symlink_file('.gemrc')
 	symlink_file('.gitconfig')
 	symlink_file('.global_ignore')
@@ -16,9 +19,17 @@ end
 # Run as rake install_file[file_name]
 # Zsh will be kind of weird with the brackets, so do this:
 # 	rake 'install_file[.my_dot_file]'
-# unless you add 'unsetopt nomatch' to .zshrc, then you're good to go
-task :install_file, [:file ] do |t, file|
+# unless you add 'unsetopt nomatch' to .zshrc, then you're good to go without the quotes
+task :setup_file, [:file ] do |t, file|
 	symlink_file( "#{file[:file]}")
+end
+
+# symlink multiple files at once
+# rake install_files['.maid .vimrc .hushlogin']
+task :setup_files, [:file ] do |t, file|
+	"#{file[:file]}".split.each do |single_file|
+	  symlink_file( single_file )
+	end
 end
 
 def symlink_file(file, method = :symlink)
