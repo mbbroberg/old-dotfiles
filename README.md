@@ -10,6 +10,19 @@ $ git clone --recursive git@github.com:bradp/dotfiles.git
 $ rake
 ```
 
+## How to use
+
+This repo contains a Rakefile that does some magic things.
+
+``` $ rake ``` - Will overwrite your existing dotfiles and symlink ours to your home directory.
+
+``` $ rake install ``` - Same as 'rake'
+
+``` $ rake setup_file[ .filename .file2 ] ``` - Symlink new files that you've added to the dotfiles/ directory
+
+``` $ rake setup_file[ .filename ] ``` - Symlink a single file that you've added to the dotfiles/ directory
+
+
 ## What it includes
 
  * **bin/**
@@ -49,14 +62,3 @@ $ rake
 
  	The magic that makes Zsh behave amazingly.
 
-## How to use
-
-This repo contains a Rakefile that does some magic things.
-
-``` $ rake ``` - Will overwrite your existing dotfiles and symlink ours to your home directory.
-
-``` $ rake install ``` - Same as 'rake'
-
-``` $ rake setup_file[ .filename .file2 ] ``` - Symlink new files that you've added to the dotfiles/ directory
-
-``` $ rake setup_file[ .filename ] ``` - Symlink a single file that you've added to the dotfiles/ directory
