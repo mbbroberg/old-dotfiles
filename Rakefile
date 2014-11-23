@@ -7,6 +7,9 @@ task :default => 'setup'
 # Creates the symlinks for what we need to create
 #
 task :setup do
+	puts "=================== Starting Setup =========================="
+	puts
+
 	symlink_file('.gemrc')
 	symlink_file('.gitconfig')
 	symlink_file('.global_ignore')
@@ -36,7 +39,6 @@ def symlink_file(file, method = :symlink)
 	source = "#{ENV["PWD"]}/#{file}"
 	target = "#{ENV["HOME"]}/#{file}"
 
-	puts "====================== #{file} =============================="
 	puts "Source: #{source}"
 	puts "Target: #{target}"
 
@@ -50,8 +52,8 @@ def symlink_file(file, method = :symlink)
 	  `cp -f "#{source}" "#{target}"`
 	end
 
-	puts "=========================================================="
 	puts
+
 end
 
 
