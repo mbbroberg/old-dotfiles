@@ -26,7 +26,6 @@ task :setup_file, [:file ] do |t, file|
 	end
 end
 
-
 def symlink_file( file )
 	source = "#{ENV["PWD"]}/#{file}"
 	target = "#{ENV["HOME"]}/#{file}"
@@ -39,7 +38,5 @@ def symlink_file( file )
 	end
 
 	`ln -nfs "#{source}" "#{target}" `
-
-	puts
 
 end
