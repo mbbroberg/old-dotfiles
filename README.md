@@ -12,40 +12,40 @@ $ rake
 
 ## What it includes
 
- * ```bin/```
+ * **bin/**
 
  	Miscellaneous scripts. This is also added to your path.
- * ```misc```
+ * **misc**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
- * ```zsh-custom/```
+ * **zsh-custom/**
 
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins
- * ```.maid/```
+ * **.maid/**
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
- * ```.aliases```
+ * **.aliases**
 
  	Aliases. Gets sourced from inside the dotfiles folder.
- * ```.exports```
+ * **.exports**
 
 	Environment exports
- * ```.gemrc```
+ * **.gemrc**
 
  	Speeds up gem installation
- * ```.gitconfig```
+ * **.gitconfig**
 
  	Make git awesome.
- * ```.global_ignore```
+ * **.global_ignore**
 
  	Our global git ignore.
- * ```.hushlogin```
+ * **.hushlogin**
 
  	Stop the login message when logging into remote servers.
- * ```.vimrc```
+ * **.vimrc**
 
  	Make your vim the prettiest vim.
- * ```.zshrc```
+ * **.zshrc**
 
  	The magic that makes Zsh behave amazingly.
 
