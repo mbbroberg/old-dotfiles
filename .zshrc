@@ -26,5 +26,6 @@ PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:~/Sites
 PATH=${PATH}:~/Dropbox/Working/Tools
 PATH=${PATH}:~/dotfiles/misc/
+PATH=${PATH}:~/dotfiles/bin/
 
 export PATH=${PATH}
