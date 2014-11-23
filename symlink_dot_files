@@ -28,6 +28,7 @@ for file in $ALLFILES; do
 		[ '.git' != $file ] &&
 		[ 'zsh-custom' != $file ] &&
 		[ 'misc' != $file ] &&
+		[ 'Rakefile' != $file ] &&
 		[ '.gitmodules' != $file ] &&
 		[ '.gitignore' != $file ] &&
 		[ '.aliases' != $file ] &&
