@@ -1,5 +1,6 @@
 ZSH=$HOME/.oh-my-zsh # Path to your oh-my-zsh configuration.
 ZSH_THEME="brad-muse" # Set name of the theme to load.
+
 DEFAULT_USER="bradparbs@bradparbs"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
