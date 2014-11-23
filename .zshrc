@@ -9,9 +9,9 @@ ZSH_CUSTOM=$HOME/dotfiles/zsh-custom
 plugins=( brew brew-cask catimg git git-extras github lol nyan osx sublime vagrant z zsh-syntax-highlighting )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.aliases
-source ~/.functions
-source ~/.exports
+source ~/dotfiles/.aliases
+source ~/dotfiles/.functions
+source ~/dotfiles/.exports
 
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
