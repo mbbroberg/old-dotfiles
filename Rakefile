@@ -16,16 +16,16 @@ task :setup do
 	symlink_file('.maid')
 end
 
-# Run as rake install_file[file_name]
+# Run as rake setup_file[file_name]
 # Zsh will be kind of weird with the brackets, so do this:
-# 	rake 'install_file[.my_dot_file]'
+# 	rake 'setup_file[.my_dot_file]'
 # unless you add 'unsetopt nomatch' to .zshrc, then you're good to go without the quotes
 task :setup_file, [:file ] do |t, file|
 	symlink_file( "#{file[:file]}")
 end
 
 # symlink multiple files at once
-# rake install_files['.maid .vimrc .hushlogin']
+# rake setup_files['.maid .vimrc .hushlogin']
 task :setup_files, [:file ] do |t, file|
 	"#{file[:file]}".split.each do |single_file|
 	  symlink_file( single_file )
