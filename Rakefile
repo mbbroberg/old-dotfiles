@@ -13,6 +13,14 @@ task :install do
 	symlink_file('.maid')
 end
 
+# Run as rake install_file[file_name]
+# Zsh will be kind of weird with the brackets, so do this:
+# 	rake 'install_file[.my_dot_file]'
+# unless you add 'unsetopt nomatch' to .zshrc, then you're good to go
+task :install_file, [:file ] do |t, file|
+	symlink_file( "#{file[:file]}")
+end
+
 def symlink_file(file, method = :symlink)
 	source = "#{ENV["PWD"]}/#{file}"
 	target = "#{ENV["HOME"]}/#{file}"
@@ -34,3 +42,5 @@ def symlink_file(file, method = :symlink)
 	puts "=========================================================="
 	puts
 end
+
+
