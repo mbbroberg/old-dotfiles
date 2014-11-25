@@ -125,6 +125,10 @@ brew cask alfred link
 brew cask cleanup
 brew cleanup
 
+echo "Setting up Vundle for Vim..."
+
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 echo "Setting some Mac settings..."
 
 #"Disabling system-wide resume"
