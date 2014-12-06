@@ -39,8 +39,6 @@ alias vup="vagrant up && vagrant provision && vagrant ssh"
 alias vp="vagrant provision"
 alias vs='sites && vagrant ssh'
 
-alias fizz="cd  ~/Dropbox/WDS/Working/fizzybot; heroku restart; cd -;"
-
 alias caff="caffeinate -dis"
 alias lc="lolcat"
 
