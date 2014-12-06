@@ -4,3 +4,4 @@ dotfiles.sublime-workspace
 .maid/rules.sample.rb
 .swp
 .netrwhist
+.vim/tmp/
