@@ -47,22 +47,7 @@ let g:mapleader = ","
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
 
-" Vundle init
-filetype off " Vundle init
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" Vundle plugins
-Plugin 'gmarik/Vundle.vim'" let Vundle manage Vundle, required
-Plugin 'tomasr/molokai'
-Plugin 'ervandew/supertab'
-Plugin 'bling/vim-airline'
-Plugin 'airblade/vim-gitgutter'
-Bundle 'shawncplus/phpcomplete.vim'
-
-call vundle#end()
-filetype plugin indent on
-" Vundle init finished
+execute pathogen#infect()
 
 " Color scheme setup
 let g:molokai_original = 1
