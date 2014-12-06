@@ -28,9 +28,18 @@ This repo contains a Rakefile that does some magic things.
  * **bin/**
 
  	Miscellaneous scripts. This is also added to your path.
+ * **.maid/**
+
+ 	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
+
  * **misc**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
+
+* **.vim/**
+
+ 	My Vim plugins.
+
  * **zsh-custom/**
 
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins.
@@ -38,13 +47,6 @@ This repo contains a Rakefile that does some magic things.
  	* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
  	* Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything)
  	* Custom theme based off Muse
- * **.maid/**
-
- 	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
-
- * **.vim/**
-
- 	My Vim plugins.
 
  * **.aliases**
 
