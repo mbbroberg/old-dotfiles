@@ -82,3 +82,8 @@ nnoremap k gk
 
 " jk is escape
 inoremap jk <esc>
+
+:set directory=$HOME/.vim/tmp/swap/
+set backupdir=$HOME/.vim/tmp/backup/
+
+
