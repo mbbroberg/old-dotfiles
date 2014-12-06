@@ -25,7 +25,6 @@ PATH=${PATH}:/opt/sm/pkg/active/bin
 PATH=${PATH}:/opt/sm/pkg/active/sbin
 PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:~/Sites
-PATH=${PATH}:~/Dropbox/Working/Tools
 PATH=${PATH}:~/dotfiles/misc/
 PATH=${PATH}:~/dotfiles/bin/
 
