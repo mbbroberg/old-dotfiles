@@ -42,7 +42,7 @@ This repo contains a Rakefile that does some magic things.
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 
- 	* **.vim/**
+ * **.vim/**
 
  	My Vim plugins.
 
