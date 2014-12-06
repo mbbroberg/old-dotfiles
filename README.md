@@ -37,6 +37,11 @@ This repo contains a Rakefile that does some magic things.
  * **.maid/**
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
+
+ 	* **.vim/**
+
+ 	My Vim plugins.
+
  * **.aliases**
 
  	Aliases. Gets sourced from inside the dotfiles folder.
