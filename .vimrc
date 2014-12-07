@@ -81,3 +81,6 @@ map <C-n> :NERDTreeToggle<CR>
 set encoding=utf-8
 set guifont=Inconsolata\ for\ Powerline
 let g:Powerline_symbols = 'fancy'
+
+let g:syntastic_always_populate_loc_list = 1
+
