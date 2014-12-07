@@ -77,3 +77,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeShowHidden=1
 
 map <C-n> :NERDTreeToggle<CR>
+
+set encoding=utf-8
+set guifont=Inconsolata\ for\ Powerline
+let g:Powerline_symbols = 'fancy'
