@@ -62,3 +62,10 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 alias ack=ag
 
 alias server="python -m SimpleHTTPServer" # start virutal server in the present directory
+
+alias ll1="tree --dirsfirst -ChFL 1"
+alias ll2="tree --dirsfirst -ChFL 2"
+alias ll3="tree --dirsfirst -ChFL 3"
+alias ll4="tree --dirsfirst -ChFupDaL 1"
+alias ll5="tree --dirsfirst -ChFupDaL 2"
+alias ll6="tree --dirsfirst -ChFupDaL 3"
