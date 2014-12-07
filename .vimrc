@@ -71,4 +71,9 @@ inoremap jk <esc>
 :set directory=$HOME/.vim/tmp/swap/
 set backupdir=$HOME/.vim/tmp/backup/
 
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+let NERDTreeShowHidden=1
+
+map <C-n> :NERDTreeToggle<CR>
