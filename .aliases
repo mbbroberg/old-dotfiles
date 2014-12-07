@@ -60,3 +60,5 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 alias ack=ag
+
+alias server="python -m SimpleHTTPServer" # start virutal server in the present directory
