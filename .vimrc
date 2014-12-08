@@ -52,6 +52,10 @@ colorscheme molokai
 
 " Airline font setup
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#hunks#enabled=0
+let g:airline_section_x=''
+let g:airline_section_y=''
+let g:airline_theme='dark'
 
 " Always display the status line, even if only one window is displayed
 set laststatus=2
