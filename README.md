@@ -1,6 +1,8 @@
 # Dotfiles
 
-My OSX dotfiles.
+My dotfiles.
+
+![](http://gifsb.in/codes/floppy-discs.gif)
 
 ## Quick installation:
 
@@ -75,3 +77,4 @@ This repo contains a Rakefile that does some magic things.
 
  	The magic that makes Zsh behave amazingly.
 
+![](http://gifsb.in/codes/web-surfing-time.gif)
