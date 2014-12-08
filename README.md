@@ -6,6 +6,10 @@ My dotfiles.
 
 ## Quick installation:
 
+```curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/boostrap.sh | sh```
+
+*OR*
+
 ```
 $ cd ~
 $ git clone --recursive git@github.com:bradp/dotfiles.git

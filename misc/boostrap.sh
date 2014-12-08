@@ -1,23 +1,17 @@
-#!/bin/sh
+#!/bin/bash
+#
+
 git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-type -P rake &>/dev/null && rake || install_rake
 
-function install_rake () {
-	if [ "$(uname)" == "Darwin" ]; then
-
+if test ! $(which rake); then
+	if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+		sudo apt-get -y rake
+	elif [ "$(uname)" == "Darwin" ]; then
 		if test ! $(which brew); then
-		  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+			ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 		fi
-
-	    brew install rake
-	elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-	    sudo apt-get -y rale
+		brew install rake
 	fi
+fi
 
-	rake
-}
-
-
-
-curl https://github.com/bradp/dotfiles/blob/master/misc/boostrap.sh | sh
+cd ~/dotfiles && rake
