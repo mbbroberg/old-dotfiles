@@ -40,7 +40,7 @@ This repo contains a Rakefile that does some magic things.
 
  	My Vim plugins.
 
- * **zsh-custom/**
+* **zsh-custom/**
 
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins.
  	Contains:
@@ -48,28 +48,28 @@ This repo contains a Rakefile that does some magic things.
  	* Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything)
  	* Custom theme based off Muse
 
- * **.aliases**
+* **.aliases**
 
  	Aliases. Gets sourced from inside the dotfiles folder.
- * **.exports**
+* **.exports**
 
 	Environment exports.
- * **.gemrc**
+* **.gemrc**
 
  	Speeds up gem installation.
- * **.gitconfig**
+* **.gitconfig**
 
  	Make git awesome.
- * **.global_ignore**
+* **.global_ignore**
 
  	Our global git ignore.
- * **.hushlogin**
+* **.hushlogin**
 
  	Stop the login message when logging into remote servers.
- * **.vimrc**
+* **.vimrc**
 
- 	Make your vim the prettiest vim.
- * **.zshrc**
+ 	Vim settings.
+* **.zshrc**
 
  	The magic that makes Zsh behave amazingly.
 
