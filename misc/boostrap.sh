@@ -1,8 +1,9 @@
+#!/bin/sh
 git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 type -P rake &>/dev/null && rake || install_rake
 
-function install_rake {
+function install_rake () {
 	if [ "$(uname)" == "Darwin" ]; then
 
 		if test ! $(which brew); then
@@ -16,3 +17,7 @@ function install_rake {
 
 	rake
 }
+
+
+
+curl https://github.com/bradp/dotfiles/blob/master/misc/boostrap.sh | sh
