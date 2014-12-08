@@ -25,17 +25,19 @@ This repo contains a Rakefile that does some magic things.
 
 ## What it includes
 
- * **`bin/`**
+* **`bin/`**
 
  	Miscellaneous scripts. This is also added to your path.
- * **`.maid/`**
+* **`.maid/`**
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 
- * **`misc/`**
+* **`misc/`**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
+* **`.oh-my-zsh/`**
 
+	Submodule checkout of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh).
 * **`.vim/`**
 
  	My Vim plugins.
