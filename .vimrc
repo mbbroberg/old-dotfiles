@@ -12,7 +12,7 @@ set noshowmode
 " ==============================
 "
 set number " Display line numbers on the left
-set colorcolumn=81 " Set a column at 81 chars wide
+set colorcolumn=81,121 " Set a column at 81 chars wide
 set encoding=utf-8
 set guifont=Inconsolata\ for\ Powerline
 let g:syntastic_always_populate_loc_list = 1
@@ -65,6 +65,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 set noswapfile " eff swp files
 set nobackup
 set nowritebackup
+set lazyredraw
 
 "
 " ==============================
@@ -83,6 +84,7 @@ nnoremap j gj " move vertically by visual line
 nnoremap k gk
 nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
 nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
+nnoremap ; :
 
 inoremap jk <esc> " jk is escape
 
