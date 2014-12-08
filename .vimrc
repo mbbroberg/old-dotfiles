@@ -86,5 +86,10 @@ map <C-n> :NERDTreeToggle<CR>
 
 nnoremap j gj " move vertically by visual line
 nnoremap k gk
+nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
+nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
 
 inoremap jk <esc> " jk is escape
+
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
