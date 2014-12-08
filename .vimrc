@@ -8,14 +8,6 @@ set noshowmode
 
 "
 " ==============================
-"	Directories
-" ==============================
-"
-set directory=$HOME/.vim/tmp/swap/
-set backupdir=$HOME/.vim/tmp/backup/
-
-"
-" ==============================
 "	Interface Settings
 " ==============================
 "
@@ -70,6 +62,7 @@ let g:Powerline_symbols = 'fancy'
 "
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+set noswapfile " eff swp files
 
 "
 " ==============================
