@@ -32,7 +32,7 @@ This repo contains a Rakefile that does some magic things.
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 
- * **`misc`**
+ * **`misc/`**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
 
