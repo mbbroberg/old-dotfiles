@@ -1,3 +1,6 @@
+" Setup pathogen
+execute pathogen#infect()
+
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
@@ -38,16 +41,8 @@ set number
 " Set to auto read when a file is changed from the outside
 set autoread
 
-" With a map leader it's possible to do extra key combinations
-" like <leader>w saves the current file
-let mapleader = ","
-let g:mapleader = ","
-
-" Fast saving
-nmap <leader>w :w!<cr>
-nmap <leader>s :w!<cr>
-
-execute pathogen#infect()
+" Set a column at 81 chars wide
+set colorcolumn=81
 
 " Color scheme setup
 let g:molokai_original = 1
@@ -61,6 +56,14 @@ let g:airline_powerline_fonts = 1
 " Always display the status line, even if only one window is displayed
 set laststatus=2
 
+set encoding=utf-8
+set guifont=Inconsolata\ for\ Powerline
+let g:Powerline_symbols = 'fancy'
+
+let g:syntastic_always_populate_loc_list = 1
+
+set hlsearch
+
 " move vertically by visual line
 nnoremap j gj
 nnoremap k gk
@@ -68,19 +71,21 @@ nnoremap k gk
 " jk is escape
 inoremap jk <esc>
 
-:set directory=$HOME/.vim/tmp/swap/
+set directory=$HOME/.vim/tmp/swap/
 set backupdir=$HOME/.vim/tmp/backup/
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 let NERDTreeShowHidden=1
-
 map <C-n> :NERDTreeToggle<CR>
 
-set encoding=utf-8
-set guifont=Inconsolata\ for\ Powerline
-let g:Powerline_symbols = 'fancy'
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+let g:mapleader = ","
 
-let g:syntastic_always_populate_loc_list = 1
+" Fast saving
+nmap <leader>w :w!<cr>
+nmap <leader>s :w!<cr>
 
