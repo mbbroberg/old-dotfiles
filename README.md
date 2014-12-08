@@ -25,22 +25,22 @@ This repo contains a Rakefile that does some magic things.
 
 ## What it includes
 
- * **bin/**
+ * **`bin/`**
 
  	Miscellaneous scripts. This is also added to your path.
- * **.maid/**
+ * **`.maid/`**
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 
- * **misc**
+ * **`misc`**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
 
-* **.vim/**
+* **`.vim/`**
 
  	My Vim plugins.
 
-* **zsh-custom/**
+* **`zsh-custom/`**
 
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins.
  	Contains:
@@ -48,28 +48,28 @@ This repo contains a Rakefile that does some magic things.
  	* Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything)
  	* Custom theme based off Muse
 
-* **.aliases**
+* **`.aliases`**
 
  	Aliases. Gets sourced from inside the dotfiles folder.
-* **.exports**
+* **`.exports`**
 
 	Environment exports.
-* **.gemrc**
+* **`.gemrc`**
 
  	Speeds up gem installation.
-* **.gitconfig**
+* **`.gitconfig`**
 
  	Make git awesome.
-* **.global_ignore**
+* **`.global_ignore`**
 
  	Our global git ignore.
-* **.hushlogin**
+* **`.hushlogin`**
 
  	Stop the login message when logging into remote servers.
-* **.vimrc**
+* **`.vimrc`**
 
  	Vim settings.
-* **.zshrc**
+* **`.zshrc`**
 
  	The magic that makes Zsh behave amazingly.
 
