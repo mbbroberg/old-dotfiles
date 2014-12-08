@@ -62,7 +62,10 @@ let g:Powerline_symbols = 'fancy'
 
 let g:syntastic_always_populate_loc_list = 1
 
+" highlight all results of a search
 set hlsearch
+" highlight first result of search whilst typing
+set incsearch
 
 " move vertically by visual line
 nnoremap j gj
