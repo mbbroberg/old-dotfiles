@@ -40,7 +40,6 @@ brew install tree
 brew install wget
 brew install trash
 brew install svn
-brew install mackup
 brew install node
 brew install imagemagick
 brew install cowsay
@@ -65,7 +64,7 @@ npm install -g grunt-cli
 
 #Install Zsh & Oh My Zsh
 echo "Installing Oh My ZSH..."
-./~/dotfiles/.oh-my-zsh/install.sh
+sh ~/dotfiles/.oh-my-zsh/tools/install.sh
 
 echo "Setting ZSH as shell..."
 chsh -s /bin/zsh
