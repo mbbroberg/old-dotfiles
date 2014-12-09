@@ -34,6 +34,11 @@ This repo contains a Rakefile that does some magic things.
 * **`bin/`**
 
  	Miscellaneous scripts. This is also added to your path.
+ 	Contains:
+ 	* `$` for when you accidently copy a command from the internet.
+ 	* `git-diff` Wrapper for icdiff for git diffs.
+ 	* `icdiff` Side by side diffs. From [here](http://www.jefftk.com/icdiff).
+ 	* `replace` - Find and replace by a given list of files. `replace foo bar **/*.txt` From [here](https://github.com/thoughtbot/dotfiles/blob/master/bin/replace).
 * **`git_template/`**
 
  	Template that gets copied when doing a `git init`. From [here](http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html).
@@ -44,6 +49,9 @@ This repo contains a Rakefile that does some magic things.
 * **`misc/`**
 
  	Miscellaneous scripts, that you might not run all the time. Currently includes `setup-new-mac.sh`, which will setup a base install of a new Mac.
+ 	Contains:
+ 	* `bootstrap.sh` to setup dotfiles in one curl | sh command.
+ 	* `setup-new-mac.sh` to setup a new mac how I like it.
 * **`.oh-my-zsh/`**
 
 	Submodule checkout of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh).
