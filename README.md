@@ -59,6 +59,10 @@ This repo contains a Rakefile that does some magic things.
  	* Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything)
  	* Custom theme based off Muse
 
+* **`.ctags`**
+
+ 	Settings for [ctags](http://ctags.sourceforge.net/).
+
 * **`.aliases`**
 
  	Aliases. Gets sourced from inside the dotfiles folder.
