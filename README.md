@@ -28,8 +28,11 @@ $ rake
 This repo contains a Rakefile that does some magic things.
 
 ``` $ rake ``` - Will overwrite your existing dotfiles and symlink ours to your home directory.
+
 ``` $ rake install ``` - Same as 'rake'
+
 ``` $ rake setup_file[ .filename .file2 ] ``` - Symlink new files that you've added to the dotfiles/ directory
+
 ``` $ rake setup_file[ .filename ] ``` - Symlink a single file that you've added to the dotfiles/ directory
 
 
