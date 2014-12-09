@@ -1,9 +1,13 @@
 # Basic options
 --recurse=yes
 --tag-relative=yes
+
+# Excludes
 --exclude=.git
 --exclude=.DS_Store
 --exclude=*.md
+--exclude=*-min.js
+--exclude=*.min.js
 
 # PHP
 --langmap=php:.engine.inc.module.theme.install.php --PHP-kinds=+cf-v
