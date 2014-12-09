@@ -1,5 +1,5 @@
-alias zshconfig="subl ~/.zshrc"
-alias ohmyzsh="subl ~/.oh-my-zsh"
+alias zshconfig="$EDITOR ~/.zshrc"
+alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias ssource='source ~/.zshrc'
 
 alias box="cd ~/Dropbox/"
@@ -14,12 +14,12 @@ alias lp="ls -p"
 alias h="history"
 alias "cd.."="cd .."
 
-alias hosts="subl /etc/hosts"
+alias hosts="$EDITOR /etc/hosts"
 alias c="cd"
 alias g="git"
 alias gs="git status"
 alias gcm="git commit -m"
-alias e="subl ."
+alias e="$EDITOR ."
 alias ql="qlmanage -p"
 
 alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
