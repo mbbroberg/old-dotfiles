@@ -34,6 +34,7 @@ brew install legit
 brew install git-flow
 
 echo "Installing other brew stuff..."
+brew install ctags
 brew install tig
 brew install tree
 brew install wget
