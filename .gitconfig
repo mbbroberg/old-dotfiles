@@ -3,7 +3,7 @@
 	email = brad@bradparbs.com
 [core]
 	editor = vim
-	excludesfile = ~/.global_ignore
+	excludesfile = ~/dotfiles/.global_ignore
 
     # Enable parallel I/O for operations like "git diff".
     preloadindex = true
