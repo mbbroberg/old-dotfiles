@@ -36,8 +36,6 @@ This repo contains a Rakefile that does some magic things.
  	* `git-diff` Wrapper for icdiff for git diffs.
  	* `icdiff` Side by side diffs. From [here](http://www.jefftk.com/icdiff).
  	* `replace` - Find and replace by a given list of files. `replace foo bar **/*.txt` From [here](https://github.com/thoughtbot/dotfiles/blob/master/bin/replace).
-* **`git_template/`**
- 	Template that gets copied when doing a `git init`. From [here](http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html).
 * **`.maid/`**
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 * **`misc/`** Miscellaneous scripts, that you might not run all the time. Contains:
@@ -49,7 +47,6 @@ This repo contains a Rakefile that does some magic things.
  	* `plugins/zsh-syntax-highlighting` Syntax highlighting from [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
  	* `plugins/parbs-sites` Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything).
  	* `themes/brad-muse` Custom theme based off Muse.
-* **`.ctags`** Settings for [ctags](http://ctags.sourceforge.net/).
 * **`.aliases`** Aliases. Gets sourced from inside the dotfiles folder.
 * **`.exports`** Environment exports.
 * **`.gemrc`** Speeds up gem installation.

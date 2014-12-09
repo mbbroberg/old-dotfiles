@@ -3,7 +3,7 @@ if [[ "$OSTYPE" =~ ^darwin ]]; then
 	if test ! $(which brew); then
 	  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	fi
-	brew install git git-extras legit git-flow ctags tig tree wget trash svn imagemagick cowsay fortune
+	brew install git git-extras legit git-flow tig tree wget trash svn imagemagick cowsay fortune
 	brew cleanup
 	sh ~/dotfiles/.oh-my-zsh/tools/install.sh
 	chsh -s $(which zsh)

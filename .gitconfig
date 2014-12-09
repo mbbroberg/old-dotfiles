@@ -78,7 +78,6 @@
     go = checkout -B
 
     tig = !tig
-	ctags = !.git/hooks/ctags
 
 [credential]
 	helper = osxkeychain
@@ -98,5 +97,3 @@
 
 [advice]
 	statusHints = false
-[init]
-	templatedir = ~/dotfiles/.git_template
