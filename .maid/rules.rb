@@ -46,6 +46,9 @@ Maid.rules do
 	rule 'Updating Brews' do
 		`brew upgrade`
 	end
+	rule 'Cleaning Brew' do
+		`brew cleanup`
+	end
 	rule 'Updating Cask Appliactions' do
 		`brew cask update`
 	end
