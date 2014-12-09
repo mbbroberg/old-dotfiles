@@ -105,3 +105,7 @@ set pastetoggle=<F2>
 
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F4> :NumbersOnOff<CR>
+
+command Wq wq
+command Q q
+command W w
