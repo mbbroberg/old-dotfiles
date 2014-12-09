@@ -63,9 +63,9 @@ This repo contains a Rakefile that does some magic things.
 
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins.
  	Contains:
- 	* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
- 	* Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything)
- 	* Custom theme based off Muse
+ 	* `plugins/zsh-syntax-highlighting` Syntax highlighting from [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
+ 	* `plugins/parbs-sites` Helper zsh function to jump to a dir in the ~/Sites folder. Used as `site dir_name` (with autocomplete and everything).
+ 	* `themes/brad-muse` Custom theme based off Muse.
 
 * **`.ctags`**
 
