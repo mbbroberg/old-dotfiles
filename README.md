@@ -34,6 +34,9 @@ This repo contains a Rakefile that does some magic things.
 * **`bin/`**
 
  	Miscellaneous scripts. This is also added to your path.
+ * **`git_template/`**
+
+ 	Template that gets copied when doing a `git init`. From [here](http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html).
 * **`.maid/`**
 
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
