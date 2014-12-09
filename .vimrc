@@ -83,9 +83,10 @@ set lazyredraw
 "	Keybindings and Mappings
 " ==============================
 "
-let mapleader = ","
-let g:mapleader = ","
+let mapleader = "\<Space>"
+let g:mapleader = "\<Space>"
 
+nmap <leader>q :q!<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
 
