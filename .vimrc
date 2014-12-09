@@ -20,6 +20,7 @@ set confirm " confim instead of error when leaving unsaved file
 let NERDTreeShowHidden=1
 let g:syntastic_always_populate_loc_list = 1
 set mouse=a " Enable use of the mouse for all modes
+let g:startify_custom_header = split(system('fortune -as | cowsay -f small '), '\n') + ['','']
 
 "
 " ==============================
