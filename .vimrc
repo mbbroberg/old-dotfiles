@@ -18,6 +18,7 @@ set guifont=Inconsolata\ for\ Powerline
 let g:syntastic_always_populate_loc_list = 1
 set confirm " confim instead of error when leaving unsaved file
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.git$']
 let g:syntastic_always_populate_loc_list = 1
 set mouse=a " Enable use of the mouse for all modes
 let g:startify_custom_header = map(split(system('fortune -as | cowsay -f small'), '\n'), '"   ". v:val') + ['','']
