@@ -21,6 +21,7 @@ let NERDTreeShowHidden=1
 let g:syntastic_always_populate_loc_list = 1
 set mouse=a " Enable use of the mouse for all modes
 let g:startify_custom_header = map(split(system('fortune -as | cowsay -f small'), '\n'), '"   ". v:val') + ['','']
+let g:startify_change_to_vcs_root = 1
 
 "
 " ==============================
