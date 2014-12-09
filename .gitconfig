@@ -54,6 +54,7 @@
     a = add
     s = status
     c = commit
+    d = !sh ~/dotfiles/bin/git-diff
     diff = diff --word-diff
     dc = diff --cached
     aa= !git add -u && git add . && git status
@@ -75,6 +76,8 @@
 	graft = !legit graft \"$@\"
 
     go = checkout -B
+
+    tig = !tig
 
 [credential]
 	helper = osxkeychain
