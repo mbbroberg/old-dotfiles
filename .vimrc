@@ -102,3 +102,6 @@ inoremap jk <esc> " jk is escape
 
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
+
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>

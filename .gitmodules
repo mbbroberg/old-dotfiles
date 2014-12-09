@@ -50,3 +50,6 @@
 [submodule ".vim/bundle/vim-startify"]
 	path = .vim/bundle/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
+[submodule ".vim/bundle/numbers.vim"]
+	path = .vim/bundle/numbers.vim
+	url = https://github.com/myusuf3/numbers.vim.git
