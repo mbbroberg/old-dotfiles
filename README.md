@@ -38,21 +38,21 @@ This repo contains a Rakefile that does some magic things.
  	* `git-diff` Wrapper for icdiff for git diffs.
  	* `icdiff` Side by side diffs. From [here](http://www.jefftk.com/icdiff).
  	* `replace` - Find and replace by a given list of files. `replace foo bar **/*.txt` From [here](https://github.com/thoughtbot/dotfiles/blob/master/bin/replace).
+
 * **`git_template/`**
  	Template that gets copied when doing a `git init`. From [here](http://tbaggery.com/2011/08/08/effortless-ctags-with-git.html).
 * **`.maid/`**
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
-
 * **`misc/`**
- 	Miscellaneous scripts, that you might not run all the time.
+ 	Miscellaneous scripts, that you might not run all the time. C
  	Contains:
  	* `bootstrap.sh` to setup dotfiles in one curl | sh command.
  	* `setup-new-mac.sh` to setup a new mac how I like it.
+
 * **`.oh-my-zsh/`**
 	Submodule checkout of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh).
 * **`.vim/`**
  	My Vim plugins.
-
 * **`zsh-custom/`**
  	My custom [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) theme and Oh My Zsh plugins.
  	Contains:
@@ -62,7 +62,6 @@ This repo contains a Rakefile that does some magic things.
 
 * **`.ctags`**
  	Settings for [ctags](http://ctags.sourceforge.net/).
-
 * **`.aliases`**
  	Aliases. Gets sourced from inside the dotfiles folder.
 * **`.exports`**
@@ -79,4 +78,3 @@ This repo contains a Rakefile that does some magic things.
  	Vim settings.
 * **`.zshrc`**
  	The magic that makes Zsh behave amazingly.
-
