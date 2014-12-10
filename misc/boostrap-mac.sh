@@ -8,6 +8,6 @@ fi
 brew install git git-extras legit git-flow tig tree wget trash svn imagemagick cowsay fortune
 brew cleanup
 sh ~/dotfiles/.oh-my-zsh/tools/install.sh
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 cd ~/dotfiles && rake
