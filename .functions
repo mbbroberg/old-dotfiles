@@ -85,3 +85,9 @@ function transfer() {
     cat $tmpfile;
     rm -f $tmpfile;
 }
+
+
+#feeed in path path to a wp dir
+function wpdebug() {
+    tail -f $1/wp-content/debug.log
+}
