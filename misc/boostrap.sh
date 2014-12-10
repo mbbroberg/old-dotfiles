@@ -11,7 +11,7 @@ contains() {
     fi
 }
 
-# git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
+git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
 
 contains $OSTYPE 'linux' && linux=true
 contains $OSTYPE 'darwin' && mac=true
