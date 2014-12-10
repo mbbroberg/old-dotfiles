@@ -29,11 +29,8 @@ This repo contains a Rakefile that does some magic things.
 
 ``` $ rake ``` - Will overwrite your existing dotfiles and symlink ours to your home directory.
 
-``` $ rake install ``` - Same as 'rake'.
-
 ``` $ rake setup_file[ .filename .file2 ] ``` - Symlink new files that you've added to the dotfiles/ directory.
 
-``` $ rake setup_file[ .filename ] ``` - Symlink a single file that you've added to the dotfiles/ directory.
 
 
 ## What it includes
@@ -62,6 +59,6 @@ This repo contains a Rakefile that does some magic things.
 * **`.gitconfig`** Make git awesome.
 * **`.global_ignore`** Our global git ignore.
 * **`.hushlogin`** Stop the login message when logging into remote servers.
-* **`.secret`** *Not included*, but gets sourced if it exists. 
+* **`.secret`** *Not included*, but gets sourced if it exists.
 * **`.vimrc`** Vim settings.
 * **`.zshrc`** The magic that makes Zsh behave amazingly.
