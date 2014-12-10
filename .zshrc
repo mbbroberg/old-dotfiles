@@ -14,6 +14,9 @@ DEFAULT_USER="bradparbs@bradparbs"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
 ZSH_CUSTOM=$HOME/dotfiles/zsh-custom
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+ZSH_HIGHLIGHT_PATTERNS+=('rm -rf *' 'fg=white,bold,bg=red')
+
 unsetopt nomatch
 
 plugins=( brew brew-cask catimg git git-extras github lol nyan osx parbs-sites sublime vagrant z zsh-syntax-highlighting )
