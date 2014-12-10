@@ -118,6 +118,3 @@ nnoremap <F4> :NumbersOnOff<CR>
 command Wq wq
 command Q q
 command W w
-
-map <Leader>tc :call RunCurrentTest()<CR>
-map <Leader>t :call RunAllTests()<CR>

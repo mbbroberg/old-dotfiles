@@ -53,6 +53,3 @@
 [submodule ".vim/bundle/numbers.vim"]
 	path = .vim/bundle/numbers.vim
 	url = https://github.com/myusuf3/numbers.vim.git
-[submodule ".vim/bundle/vim-phpunit"]
-	path = .vim/bundle/vim-phpunit
-	url = https://github.com/pedrogimenez/vim-phpunit.git
