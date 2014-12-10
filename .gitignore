@@ -5,3 +5,4 @@ dotfiles.sublime-workspace
 .swp
 .netrwhist
 .vim/tmp/
+.secret
