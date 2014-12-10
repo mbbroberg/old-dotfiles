@@ -55,6 +55,8 @@ alias lc="lolcat"
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
 
+alias bell='echo "\a"'
+
 alias v=vi
 
 alias currentdate='date "+%Y.%m.%d"'
