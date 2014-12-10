@@ -1,8 +1,23 @@
 #!/bin/sh
 
-git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
+contains() {
+    string="$1"
+    substring="$2"
+    if test "${string#*$substring}" != "$string"
+    then
+        return 0    # $substring is in $string
+    else
+        return 1    # $substring is not in $string
+    fi
+}
 
-if [[ "$OSTYPE"  == *"darwin"* ]]; then
+# git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
+
+contains $OSTYPE 'linux' && linux=true
+contains $OSTYPE 'darwin' && mac=true
+
+if [ $mac ]
+then
 	if test ! $(which brew); then
 	  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	fi
@@ -10,9 +25,8 @@ if [[ "$OSTYPE"  == *"darwin"* ]]; then
 	brew cleanup
 	sh ~/dotfiles/.oh-my-zsh/tools/install.sh
 	chsh -s $(which zsh)
-fi
-
-if [[ "$OSTYPE"  == *"linux"* ]]; then
+elif [ $linux ]
+then
 	sudo apt-get -y install zsh tree tig wget cowsay fortune rake
 	chsh -s $(which zsh)
 fi
