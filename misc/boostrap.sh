@@ -2,7 +2,7 @@
 
 git clone --recursive https://github.com/bradp/dotfiles.git ~/dotfiles
 
-if [[ "$OSTYPE" =~ ^darwin ]]; then
+if [[ "$OSTYPE"  == *"darwin"* ]]; then
 	if test ! $(which brew); then
 	  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	fi
@@ -12,7 +12,7 @@ if [[ "$OSTYPE" =~ ^darwin ]]; then
 	chsh -s $(which zsh)
 fi
 
-if [[ "$OSTYPE" =~ ^linux ]]; then
+if [[ "$OSTYPE"  == *"linux"* ]]; then
 	sudo apt-get -y install zsh tree tig wget cowsay fortune rake
 	chsh -s $(which zsh)
 fi
