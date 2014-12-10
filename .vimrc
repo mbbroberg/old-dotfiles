@@ -42,7 +42,7 @@ let g:molokai_original = 1
 syntax enable
 set background=dark
 colorscheme molokai
-set guifont=Inconsolata\ for\ Powerline
+set guifont=Inconsolata\ for\ Powerline:h14
 syntax on " Enable syntax highlighting
 
 "
