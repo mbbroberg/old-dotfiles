@@ -22,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/.aliases
 source ~/dotfiles/.functions
 source ~/dotfiles/.exports
+test -f ~/dotfiles/.secret && source ~/dotfiles/.secret
 
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
