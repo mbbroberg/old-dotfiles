@@ -19,6 +19,9 @@ $ cd ~
 $ git clone --recursive git@github.com:bradp/dotfiles.git
 $ rake
 ```
+OR
+
+``curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/bootstrap.sh | sudo bash`` to also install all requirments (Zsh, Oh My Zsh, etc.)
 
 ## How to use
 
