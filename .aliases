@@ -43,7 +43,6 @@ alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/La
 
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | printf '=> Public key copied to pasteboard.\n'";
 
-alias vv=vagrant
 alias vup="vagrant up && vagrant provision && vagrant ssh"
 alias vp="vagrant provision"
 alias vs='sites && vagrant ssh'

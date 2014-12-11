@@ -21,7 +21,7 @@ $ rake
 ```
 OR
 
-``curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/bootstrap | sudo bash`` to also install all requirments (Zsh, Oh My Zsh, etc.)
+``curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/bootstrap | sudo bash`` to also install all requirments (Zsh, and friends, etc.)
 
 ## How to use
 

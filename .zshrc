@@ -39,5 +39,6 @@ PATH=${PATH}:/opt/sm/pkg/active/sbin
 PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:~/dotfiles/misc
 PATH=${PATH}:~/dotfiles/bin
+PATH=${PATH}:~/dotfiles/bin/vv
 
 export PATH=${PATH}
