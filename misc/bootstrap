@@ -13,6 +13,5 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 	apt-get -y install zsh tree tig wget cowsay fortune rake
 fi
 
-sh ~/dotfiles/.oh-my-zsh/tools/install.sh
 chsh -s $(which zsh)
 cd ~/dotfiles && rake
