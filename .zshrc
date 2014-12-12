@@ -18,6 +18,8 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 ZSH_HIGHLIGHT_PATTERNS+=('rm -rf *' 'fg=white,bold,bg=red')
 
 unsetopt nomatch
+setopt APPEND_HISTORY
+setopt INTERACTIVE_COMMENTS
 
 plugins=( brew brew-cask catimg git git-extras github lol nyan osx parbs-sites sublime vagrant z zsh-syntax-highlighting )
 
