@@ -11,3 +11,5 @@ Thumbs.db
 .sass-cache/
 node_modules/
 *.swp
+*.sublime-workspace
+*.sublime-project
