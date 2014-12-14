@@ -91,7 +91,3 @@ function transfer() {
 function wpdebug() {
     tail -f $1/wp-content/debug.log
 }
-
-function gist() {
-    gist -p $1 | pbcopy
-}
