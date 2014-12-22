@@ -91,3 +91,8 @@ function transfer() {
 function wpdebug() {
     tail -f $1/wp-content/debug.log
 }
+
+#creates a short url with git.io
+function short() {
+    curl -i http://git.io -s -F"url=$1" | ag Location | sed 's/Location: //' | pbcopy
+}
