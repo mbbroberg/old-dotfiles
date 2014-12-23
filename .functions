@@ -96,3 +96,7 @@ function wpdebug() {
 function short() {
     curl -i http://git.io -s -F"url=$1" | ag Location | sed 's/Location: //' | pbcopy
 }
+
+function kill9() {
+    afplay ~/dotfiles/misc/kill-9.wav && kill -9 $1
+}
