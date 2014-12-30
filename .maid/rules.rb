@@ -62,6 +62,17 @@ Maid.rules do
 	#
 	# Downloads Folder Stuff
 	#
+	#
+	# Desktop SQL Files
+	#
+	rule 'Database Backups' do
+		dir('~/Downloads/*.sql').each do |path|
+			mkdir( '~/Documents/DB Backups/' + Time.now.strftime("%Y-%m-%d") )
+			move(path, '~/Documents/DB Backups/' + Time.now.strftime("%Y-%m-%d") )
+		end
+	end
+
+
 	rule 'Trash incomplete downloads' do
 		trash dir('~/Downloads/*.download').select { |p| 3.days.since modified_at p }
 	end
