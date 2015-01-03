@@ -100,3 +100,17 @@ function short() {
 function kill9() {
     afplay ~/dotfiles/misc/kill-9.wav && kill -9 $1
 }
+
+# vim(): open 'foo:12' as foo at line 12
+# http://www.zsh.org/mla/users/2011/msg00333.html
+function vim() {
+    if test $# != 1 -o -r $1; then
+        command vim "${@}"
+    else
+        local args
+        args=(${(s.:.)1})
+        [[ $#args -ge 2 && $args[2] == <-> ]] \
+            && command vim $args[1] +$args[2] \
+            || command vim $args[1]
+    fi
+}
