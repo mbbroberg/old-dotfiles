@@ -79,3 +79,4 @@ alias ll5="tree --dirsfirst -ChFupDaL 2"
 alias ll6="tree --dirsfirst -ChFupDaL 3"
 
 alias gist="gist -ec $1"
+alias exot=exit
