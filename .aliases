@@ -80,3 +80,7 @@ alias ll6="tree --dirsfirst -ChFupDaL 3"
 
 alias gist="gist -ec $1"
 alias exot=exit
+
+alias npm="sudo npm $1"
+
+alias gifs_deploy="g aa && g commit -m 'Gifs' && g push origin master && dandelion deploy"
