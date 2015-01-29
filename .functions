@@ -114,3 +114,17 @@ function vim() {
             || command vim $args[1]
     fi
 }
+
+function dand_setup() {
+    touch dandelion.yml
+    echo "
+adapter: sftp
+host: 104.236.30.130
+username: deploy
+path: /var/www/<project_name>/html
+
+exclude:
+    - .gitignore
+    - dandelion.yml
+" >> dandelion.yml
+}
