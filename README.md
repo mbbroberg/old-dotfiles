@@ -43,6 +43,7 @@ This repo contains a Rakefile that does some magic things.
  	* `icdiff` Side by side diffs. From [here](http://www.jefftk.com/icdiff).
  	* `replace` - Find and replace by a given list of files. `replace foo bar **/*.txt` From [here](https://github.
  	com/thoughtbot/dotfiles/blob/master/bin/replace).
+* **`.grunt-init`** Our scaffolds for [grunt-init](http://gruntjs.com/project-scaffolding).
 * **`.maid/`**
  	My [Maid](https://github.com/benjaminoakes/maid) rules for cleanup of Desktop, Downloads, and automatic Brew and Oh My Zsh upgrades.
 * **`misc/`** Miscellaneous scripts, that you might not run all the time. Contains:
