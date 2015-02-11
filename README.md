@@ -31,7 +31,9 @@ This repo contains a Rakefile that does some magic things.
 
 ``` $ rake setup_file[ .filename .file2 ] ``` - Symlink new files that you've added to the dotfiles/ directory.
 
+## Curious about my setup?
 
+Check out [my blog post](http://webdevstudios.com/2015/02/10/a-beginners-guide-to-the-best-command-line-tools/) on getting started.
 
 ## What it includes
 
