@@ -62,9 +62,6 @@
 [submodule ".grunt-init/wp-underscores"]
 	path = .grunt-init/wp-underscores
 	url = git@github.com:ericmann/grunt-wp-underscores.git
-[submodule "vim/bundle/vim-vinegar"]
-	path = vim/bundle/vim-vinegar
-	url = git@github.com:tpope/vim-vinegar.git
 [submodule ".vim/bundle/vim-vinegar"]
 	path = .vim/bundle/vim-vinegar
 	url = git@github.com:tpope/vim-vinegar.git
