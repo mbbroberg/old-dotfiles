@@ -39,7 +39,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'Valloric/YouCompleteMe',         { 'on': [], 'do': './install.sh' }
 Plug 'tpope/vim-unimpaired'
-
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 "
@@ -98,7 +98,7 @@ endif
 "
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#hunks#enabled=0
-let g:airline_section_x=''
+let g:airline_section_x='%{fugitive#statusline()}'
 let g:airline_section_y=''
 let g:airline_theme='dark'
 let g:Powerline_symbols = 'fancy'
