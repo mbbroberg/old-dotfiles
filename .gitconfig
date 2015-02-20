@@ -10,6 +10,7 @@
 [user]
 	name = Brad Parbs
 	email = brad@bradparbs.com
+    github = bradp
 [core]
 	editor = vim
 	excludesfile = ~/dotfiles/.global_ignore

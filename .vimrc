@@ -11,9 +11,35 @@
 "	Init
 " ==============================
 "
-execute pathogen#infect()
 set nocompatible
 set noshowmode
+
+" ==============================
+" Plugins
+" ==============================
+"
+call plug#begin('~/.vim/plugged')
+
+Plug 'rking/ag.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'myusuf3/numbers.vim'
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'ervandew/supertab'
+Plug 'scrooloose/syntastic'
+Plug 'tomtom/tcomment_vim'
+Plug 'SirVer/ultisnips'
+Plug 'bling/vim-airline'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'tpope/vim-sensible'
+Plug 'mhinz/vim-startify'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-vinegar'
+Plug 'Valloric/YouCompleteMe',         { 'on': [], 'do': './install.sh' }
+
+call plug#end()
 
 "
 " ==============================
