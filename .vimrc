@@ -38,6 +38,7 @@ Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'Valloric/YouCompleteMe',         { 'on': [], 'do': './install.sh' }
+Plug 'tpope/vim-unimpaired'
 
 call plug#end()
 
