@@ -57,7 +57,10 @@ alias pumpitup="osascript -e 'set volume 10'"
 
 alias bell='echo "\a"'
 
-alias v=vi
+alias v=vim
+alias vi=vim
+alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
+alias mvi=mvim
 
 alias currentdate='date "+%Y.%m.%d"'
 

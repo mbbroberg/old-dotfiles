@@ -32,19 +32,18 @@ let g:syntastic_always_populate_loc_list = 1
 set mouse=a " Enable use of the mouse for all modes
 let g:startify_custom_header = map(split(system('fortune -as | cowsay -f small'), '\n'), '"   ". v:val') + ['','']
 let g:startify_change_to_vcs_root = 1
-
+let g:ctrlp_reuse_window  = 'startify'
 "
 " ==============================
 "	Color Scheme
 " ==============================
 "
-let g:molokai_original = 1
 syntax enable
 set background=dark
-colorscheme molokai
+colorscheme solarized
 set guifont=Inconsolata\ for\ Powerline:h14
 syntax on " Enable syntax highlighting
-
+let g:solarized_termcolors=256
 "
 " ==============================
 "	Search
@@ -87,6 +86,33 @@ set nobackup
 set nowritebackup
 set lazyredraw
 
+let g:UltiSnipsListSnippets = "<C-g><Tab>"
+let g:UltiSnipsExpandTrigger = "<Tab>"
+let g:UltiSnipsJumpForwardTrigger = "<Tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<S-Tab>"
+let g:UltiSnipsSnippetsDir = "~/.vim/snips"
+let g:UltiSnipsSnippetDirectories = ["snips"]
+
+let g:ycm_filetype_blacklist = {
+      \ 'tagbar' : 1,
+      \ 'qf' : 1,
+      \ 'notes' : 1,
+      \ 'markdown' : 1,
+      \ 'unite' : 1,
+      \ 'text' : 1,
+      \ 'vimwiki' : 1,
+      \ 'pandoc' : 1,
+      \ 'infolog' : 1,
+      \ 'mail' : 1,
+      \ 'html': 1,
+      \ }
+let g:ycm_complete_in_strings = 0
+let g:ycm_autoclose_preview_window_after_insertion = 1
+" Remove <Tab> from maps lest YCM hijack our mapping from above
+let g:ycm_key_list_select_completion = ['<Down>']
+let g:ycm_key_list_previous_completion = ['<Up>']
+
+"
 "
 " ==============================
 "	Keybindings and Mappings
@@ -98,8 +124,6 @@ let g:mapleader = "\<Space>"
 nmap <leader>q :q!<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
-
-map <C-n> :NERDTreeToggle<CR>
 
 nnoremap j gj " move vertically by visual line
 nnoremap k gk
@@ -118,3 +142,8 @@ nnoremap <F4> :NumbersOnOff<CR>
 command Wq wq
 command Q q
 command W w
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
