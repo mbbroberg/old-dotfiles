@@ -40,6 +40,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'Valloric/YouCompleteMe',         { 'on': [], 'do': './install.sh' }
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 "
