@@ -140,7 +140,10 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_key_list_select_completion = ['<Down>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 
-"
+let g:syntastic_php_checkers = ['php', 'phpcs']
+let g:syntastic_php_phpcs_args="--report=csv --standard=WordPress"
+
+
 "
 " ==============================
 "	Keybindings and Mappings
@@ -153,8 +156,6 @@ nmap <leader>q :q!<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
 
-nnoremap j gj " move vertically by visual line
-nnoremap k gk
 nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
 nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
 nnoremap ; :

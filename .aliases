@@ -86,5 +86,8 @@ alias exot=exit
 
 alias npm="sudo npm $1"
 
+alias pc='phpcs --standard="WordPress"'
+alias pcf='phpcbf --standard="WordPress"'
+
 alias dand=dandelion
 alias gifs_deploy="g aa && g commit -m 'Gifs' && g push origin master && dandelion deploy"
