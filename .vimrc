@@ -37,9 +37,10 @@ Plug 'tpope/vim-sensible'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'Valloric/YouCompleteMe',         { 'on': [], 'do': './install.sh' }
+Plug 'Valloric/YouCompleteMe',         { 'do': './install.sh' }
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
@@ -176,3 +177,4 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+nmap q :nohlsearch<CR>
