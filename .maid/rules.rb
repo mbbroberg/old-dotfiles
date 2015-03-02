@@ -64,7 +64,7 @@ Maid.rules do
 	rule 'Updating gems ' do
 		`gem update`
 	end
-	rul 'Updating Vim Plugins' do
+	rule 'Updating Vim Plugins' do
 		`vim -c VundleUpdate -c quitall`
 	end
 
