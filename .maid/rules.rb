@@ -58,9 +58,6 @@ Maid.rules do
 	rule 'Updating dotfiles submodules' do #This is a kind of hacky way to do it
 		`cd ~/dotfiles && git submodule foreach git pull origin master`
 	end
-	rule 'Updating NPM ' do
-		`npm update -g`
-	end
 	rule 'Updating gems ' do
 		`gem update`
 	end
