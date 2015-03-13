@@ -84,6 +84,8 @@ alias ll6="tree --dirsfirst -ChFupDaL 3"
 alias gist="gist -ec $1"
 alias exot=exit
 
+alias 3d="figlet -f 3d $1"
+
 alias pc='phpcs --standard="WordPress" $@'
 alias pcf='phpcbf --standard="WordPress" $@'
 
