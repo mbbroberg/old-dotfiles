@@ -41,6 +41,7 @@ Plug 'Valloric/YouCompleteMe',         { 'do': './install.sh' }
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
 Plug 'ap/vim-css-color'
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
 
@@ -156,6 +157,7 @@ let g:mapleader = "\<Space>"
 nmap <leader>q :q!<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
+nmap <leader>/ <leader>c<space><cr>
 
 nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
 nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
