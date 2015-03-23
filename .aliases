@@ -34,7 +34,7 @@ alias ql="qlmanage -p"
 alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
 alias yoloo="git commit -am '`curl -s http://whatthecommit.com/index.txt`' && git push origin master --force"
 
-alias unhidelibrary="chflags nohidden /Users/bradparbs/Library"
+alias unhidelibrary="chflags nohidden ~/Library"
 alias showdotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hidedotfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
