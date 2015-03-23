@@ -24,8 +24,8 @@ brew install git
 
 echo "Git config"
 
-#git config --global user.name "Brad Parbs"
-#git config --global user.email brad@bradparbs.com
+# git config --global user.name "Brad Parbs"
+# git config --global user.email brad@bradparbs.com
 
 
 echo "Installing brew git utilities..."
@@ -40,9 +40,15 @@ brew install wget
 brew install trash
 brew install svn
 brew install node
+brew install python
 brew install imagemagick
 brew install cowsay
 brew install fortune
+brew install htop-osx
+brew install the_silver_searcher
+brew install vv
+brew install gist
+brew install shellcheck
 
 #@TODO install our custom fonts and stuff
 
@@ -73,7 +79,6 @@ apps=(
  alfred
  firefox
  private-internet-access
- steam
  bartender
  harvest
  qlcolorcode
@@ -90,12 +95,10 @@ apps=(
  licecap
  razer-synapse
  vagrant
- colloquy
  mailbox
  sequel-pro
  virtualbox
  cornerstone
- mou
  skype
  vlc
  diffmerge
@@ -103,8 +106,9 @@ apps=(
  sourcetree
  zoomus
  dropbox
- phpstorm
  spotify
+ macdown
+ macvim
 )
 
 # Install apps to /Applications
@@ -116,10 +120,6 @@ brew cask alfred link
 
 brew cask cleanup
 brew cleanup
-
-echo "Setting up Vundle for Vim..."
-
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "Setting some Mac settings..."
 
