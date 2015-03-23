@@ -87,21 +87,17 @@ apps=(
  hipchat
  qlmarkdown
  transmission
- chromecast
  iterm2
  qlstephen
  transmit
  cleanmymac
- licecap
  razer-synapse
  vagrant
  mailbox
  sequel-pro
  virtualbox
- cornerstone
  skype
  vlc
- diffmerge
  nvalt
  sourcetree
  zoomus
@@ -109,6 +105,8 @@ apps=(
  spotify
  macdown
  macvim
+ seil
+ slack
 )
 
 # Install apps to /Applications
