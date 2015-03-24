@@ -55,14 +55,11 @@ Maid.rules do
 	rule 'Updating Cask Appliactions' do
 		`brew cask update`
 	end
-	rule 'Updating dotfiles submodules' do #This is a kind of hacky way to do it
+	rule 'Updating dotfiles submodules' do 	
 		`cd ~/dotfiles && git submodule foreach git pull origin master`
 	end
 	rule 'Updating gems ' do
-		`gem update`
-	end
-	rule 'Updating Vim Plugins' do
-		`vim -c VundleUpdate -c quitall`
+		`sudo gem update`
 	end
 
 	#
