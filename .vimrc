@@ -13,6 +13,7 @@
 "
 set nocompatible
 set noshowmode
+syntax on
 
 " ==============================
 " Plugins
@@ -42,7 +43,6 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
 Plug 'ap/vim-css-color'
 Plug 'scrooloose/nerdcommenter'
-
 call plug#end()
 
 "
@@ -56,8 +56,6 @@ set encoding=utf-8
 set guifont=Inconsolata\ for\ Powerline
 let g:syntastic_always_populate_loc_list = 1
 set confirm " confim instead of error when leaving unsaved file
-let NERDTreeShowHidden=1
-let NERDTreeIgnore=['\.git$']
 let g:syntastic_always_populate_loc_list = 1
 set mouse=a " Enable use of the mouse for all modes
 let g:startify_custom_header = map(split(system('fortune -as | cowsay -f small'), '\n'), '"   ". v:val') + ['','']
@@ -71,9 +69,9 @@ let g:ctrlp_reuse_window  = 'startify'
 syntax enable
 set background=dark
 colorscheme solarized
-set guifont=Inconsolata\ for\ Powerline:h14
 syntax on " Enable syntax highlighting
 let g:solarized_termcolors=256
+let macvim_skip_colorscheme=1
 "
 " ==============================
 "	Search
@@ -158,6 +156,7 @@ nmap <leader>q :q!<cr>
 nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
 nmap <leader>/ <leader>c<space><cr>
+nmap <leader>g :Gstatus<cr>
 
 nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
 nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
