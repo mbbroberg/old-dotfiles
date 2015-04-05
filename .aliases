@@ -91,3 +91,5 @@ alias pcf='phpcbf --standard="WordPress" $@'
 
 alias dand=dandelion
 alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git push origin master && dandelion deploy"
+
+alias tailf="less +F $0"
