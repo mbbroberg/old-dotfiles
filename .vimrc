@@ -44,6 +44,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'ap/vim-css-color'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 "
