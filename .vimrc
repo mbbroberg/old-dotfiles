@@ -145,6 +145,8 @@ let g:syntastic_php_checkers = ['php', 'phpcs']
 let g:syntastic_php_phpcs_args="--report=csv --standard=WordPress"
 
 
+let g:phpcomplete_parse_docblock_comments = 1
+
 "
 " ==============================
 "	Keybindings and Mappings
