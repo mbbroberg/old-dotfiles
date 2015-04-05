@@ -43,6 +43,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-fugitive'
 Plug 'ap/vim-css-color'
 Plug 'scrooloose/nerdcommenter'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 "

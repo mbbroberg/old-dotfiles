@@ -29,11 +29,12 @@ source ~/dotfiles/.functions
 source ~/dotfiles/.exports
 test -f ~/dotfiles/.secret && source ~/dotfiles/.secret
 
+
+PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
 PATH=${PATH}:/usr/sbin
 PATH=${PATH}:/sbin
-PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/local/git/bin
 PATH=${PATH}:/opt/sm/bin
 PATH=${PATH}:/opt/sm/pkg/active/bin
