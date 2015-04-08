@@ -43,6 +43,7 @@ PATH=${PATH}:/usr/local/heroku/bin
 PATH=${PATH}:~/dotfiles/misc
 PATH=${PATH}:~/dotfiles/bin
 PATH=${PATH}:~/.composer/vendor/bin
+PATH=${PATH}:~/go/bin
 
 export PATH=${PATH}
 
