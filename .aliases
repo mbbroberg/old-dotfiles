@@ -88,6 +88,7 @@ alias 3d="figlet -f 3d $1"
 
 alias pc='phpcs --standard="WordPress" $@'
 alias pcf='phpcbf --standard="WordPress" $@'
+alias pcfall='find . | grep .php | xargs phpcbf --standard="WordPress"'
 
 alias dand=dandelion
 alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git push origin master && dandelion deploy"
