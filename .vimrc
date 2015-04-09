@@ -46,6 +46,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'fatih/vim-go'
+
 call plug#end()
 
 "
@@ -148,6 +149,10 @@ let g:syntastic_php_phpcs_args="--report=csv --standard=WordPress"
 
 
 let g:phpcomplete_parse_docblock_comments = 1
+
+let g:go_fmt_command = "goimports"
+
+
 
 "
 " ==============================
