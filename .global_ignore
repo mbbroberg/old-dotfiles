@@ -15,3 +15,6 @@ node_modules/
 *.sublime-project
 dandelion.yml
 *.local.txt
+tags.temp
+tags.lock
+tags

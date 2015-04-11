@@ -46,6 +46,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'fatih/vim-go'
+Plug 'majutsushi/tagbar'
 
 call plug#end()
 
@@ -167,6 +168,7 @@ nmap <leader>w :w!<cr>
 nmap <leader>s :w!<cr>
 nmap <leader>/ <leader>c<space><cr>
 nmap <leader>g :Gstatus<cr>
+nmap <leader>t :TagbarToggle<cr>
 
 nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
 nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
