@@ -5,3 +5,6 @@
 .vim/tmp/
 .vim/plugged/*
 .secret
+zsh-custom/sourced/secret
+secret/
+
