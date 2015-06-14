@@ -44,7 +44,7 @@ Maid.rules do
 		`brew update`
 	end
 	rule 'Updating Brews' do
-		`brew upgrade`
+		`brew upgrade -all`
 	end
 	rule 'Cleaning Brew' do
 		`brew cleanup`
@@ -55,11 +55,14 @@ Maid.rules do
 	rule 'Updating Cask Appliactions' do
 		`brew cask update`
 	end
-	rule 'Updating dotfiles submodules' do 	
+	rule 'Updating dotfiles submodules' do
 		`cd ~/dotfiles && git submodule foreach git pull origin master`
 	end
 	rule 'Updating gems ' do
 		`sudo gem update`
+	end
+	rule 'Update npm' do
+		`sudo npm -g update`
 	end
 
 	#

@@ -11,12 +11,6 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias ssource='source ~/.zshrc'
 
-alias box="cd ~/Dropbox/"
-alias working="cd ~/Dropbox/Working/"
-alias wds="cd ~/Dropbox/WDS/"
-alias sites="cd ~/Sites/www"
-alias wpc="cd htdocs/wp-content"
-
 alias lss="ls -Gal"
 alias lp="ls -p"
 
@@ -94,7 +88,5 @@ alias dand=dandelion
 alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git push origin master && dandelion deploy"
 
 alias tailf="less +F $0"
-
-alias goo="cd ~/go/src/github.com/bradp/"
 
 

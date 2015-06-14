@@ -42,6 +42,8 @@ source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh-custom/sourced/aliases
 source ~/dotfiles/zsh-custom/sourced/functions
 source ~/dotfiles/zsh-custom/sourced/exports
+source ~/dotfiles/zsh-custom/sourced/paths
+
 test -f ~/dotfiles/zsh-custom/sourced/secret && source ~/dotfiles/zsh-custom/sourced/secret
 
 

@@ -27,3 +27,5 @@ export MANPAGER="less -X";
 setopt RM_STAR_WAIT
 
 export GOPATH="$HOME/go"
+
+export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
