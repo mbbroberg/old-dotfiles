@@ -8,8 +8,8 @@
 #    ░░░░░  ░░    ░░   ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 
 [user]
-	name = Brad Parbs
-	email = brad@bradparbs.com
+    name = Brad Parbs
+    email = brad@bradparbs.com
     github = bradp
 [core]
 	editor = vim
