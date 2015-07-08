@@ -7,4 +7,4 @@
 .secret
 zsh-custom/sourced/secret
 secret/
-
+.gitconfig
