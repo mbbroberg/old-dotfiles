@@ -17,7 +17,7 @@ alias lp="ls -p"
 alias h="history"
 alias "cd.."="cd .."
 
-alias hosts="$EDITOR /etc/hosts"
+alias hosts="sudo $EDITOR /etc/hosts"
 alias c="cd"
 alias g="git"
 alias gs="git status"
