@@ -136,3 +136,14 @@ function hide() {
 function unhide() {
 	chflags nohidden $0
 }
+
+function newscotch() {
+	git clone git@github.com:scotch-io/scotch-box.git $1
+	if [[ ! -z $1 ]]; then
+		cd $1
+	else
+		cd scotch-box
+	fi
+	rm -rf .git
+	rm README.md
+}
