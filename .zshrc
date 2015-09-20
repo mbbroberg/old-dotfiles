@@ -53,10 +53,10 @@ PATH=${PATH}:/opt/sm/bin
 PATH=${PATH}:/opt/sm/pkg/active/bin
 PATH=${PATH}:/opt/sm/pkg/active/sbin
 PATH=${PATH}:/usr/local/heroku/bin
-PATH=${PATH}:~/dotfiles/misc
-PATH=${PATH}:~/dotfiles/bin
-PATH=${PATH}:~/.composer/vendor/bin
-PATH=${PATH}:~/go/bin
+PATH=${PATH}:"$HOME"/dotfiles/misc
+PATH=${PATH}:"$HOME"/dotfiles/bin
+PATH=${PATH}:"$HOME"/.composer/vendor/bin
+PATH=${PATH}:"$HOME"/go/bin
 
 export PATH=${PATH}
 
