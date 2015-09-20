@@ -115,13 +115,14 @@ function vim() {
 			fi
 }
 
-function dand_setup() {
+function dand-setup() {
+# usage: dand-setup <name> <user> <host>
 	touch dandelion.yml
 		echo "
 adapter: sftp
-host: 104.236.30.130
-username: deploy
-path: /var/www/<project_name>/html
+host: $3
+username: $2
+path: /var/www/$1/html
 
 exclude:
 - .gitignore
