@@ -39,13 +39,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/dotfiles/zsh-custom/sourced/aliases
-source ~/dotfiles/zsh-custom/sourced/functions
-source ~/dotfiles/zsh-custom/sourced/exports
-source ~/dotfiles/zsh-custom/sourced/paths
-
-test -f ~/dotfiles/zsh-custom/sourced/secret && source ~/dotfiles/zsh-custom/sourced/secret
-
+for file in $HOME/dotfiles/zsh-custom/sourced/*; do
+   source "$file"
+done
 
 PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/bin
