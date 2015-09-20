@@ -89,4 +89,4 @@ alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git 
 
 alias tailf="less +F $0"
 
-
+alias sha256="shasum -a 256 "$1" "
