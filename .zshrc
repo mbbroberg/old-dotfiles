@@ -8,9 +8,9 @@
 #	░░░░░░ ░░░░░░  ░░   ░░ ░░░     ░░░░░
 
 ZSH=$HOME/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
-ZSH_THEME="brad-muse" # Set name of the theme to load.
+ZSH_THEME="agnoster" # Set name of the theme to load.
 
-DEFAULT_USER="bradparbs@bradparbs"
+DEFAULT_USER="basho"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
 ZSH_CUSTOM=$HOME/dotfiles/zsh-custom
@@ -31,6 +31,9 @@ plugins=(
 	lol
 	nyan
 	osx
+    go
+    ruby
+    scala
 	parbs-sites
 	sublime
 	vagrant
@@ -59,4 +62,3 @@ PATH=${PATH}:"$HOME"/.composer/vendor/bin
 PATH=${PATH}:"$HOME"/go/bin
 
 export PATH=${PATH}
-

@@ -9,16 +9,18 @@
 # ░░       ░░░░░░░░    ░░  ░░   ░░ ░░░░░░
 #
 
-alias box="cd ~/Dropbox/"
-alias working="cd ~/Dropbox/Working/"
-alias wds="cd ~/Dropbox/WDS/"
 
 alias sites="cd ~/Sites/www"
-alias wpc="cd htdocs/wp-content"
-
-alias goo="cd ~/go/src/github.com/bradp/"
 
 alias docs="cd ~/Documents/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
+export GOPATH="$HOME/go"
+export GOROOT="/usr/local/go"
+
+export WORK="/Users/basho/Google Drive/Basho-Dev"
+export PLAY="/Users/basho/Documents/Develop"
+
+export PATH="$GOROOT/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
