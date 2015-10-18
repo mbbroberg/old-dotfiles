@@ -30,7 +30,6 @@ Plug 'scrooloose/syntastic'
 Plug 'tomtom/tcomment_vim'
 " Plug 'SirVer/ultisnips'
 Plug 'bling/vim-airline'
-Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -74,9 +73,7 @@ let g:ctrlp_reuse_window  = 'startify'
 "
 syntax enable
 set background=dark
-colorscheme solarized
 syntax on " Enable syntax highlighting
-let g:solarized_termcolors=256
 let macvim_skip_colorscheme=1
 "
 " ==============================

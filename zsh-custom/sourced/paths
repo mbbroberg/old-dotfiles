@@ -22,6 +22,7 @@ export GODEV="$GOPATH/src/github.com/mjbrender"
 
 export WORK="/Users/basho/Google Drive/Basho-Dev"
 export PLAY="/Users/basho/Documents/Develop"
+export GODEV="/Users/basho/go/src/github.com/mjbrender"
 
 export PATH="$GOROOT/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"

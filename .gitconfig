@@ -13,7 +13,7 @@
     email = mjbrender@gmail.com
     github = mjbrender
 [core]
-	editor = atom
+	editor = vi
 	excludesfile = ~/dotfiles/.global_ignore
 
     # Enable parallel I/O for operations like "git diff".
