@@ -108,5 +108,5 @@
 [advice]
 	statusHints = false
 
-[init]
-	templatedir = ~/dotfiles/.git_template
+#[init]
+# templatedir = ~/dotfiles/.git_template
