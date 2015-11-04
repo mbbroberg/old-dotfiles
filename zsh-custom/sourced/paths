@@ -18,6 +18,7 @@ alias dt="cd ~/Desktop"
 
 export GOPATH="$HOME/go"
 export GOROOT="/usr/local/go"
+export GODEV="$GOPATH/src/github.com/mjbrender"
 
 export WORK="/Users/basho/Google Drive/Basho-Dev"
 export PLAY="/Users/basho/Documents/Develop"
