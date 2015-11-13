@@ -9,10 +9,10 @@
  ░░░░░░  ░░░░░░     ░░    ░░   ░░ ░░░  ░░░░░░ ░░░░░░
 
 ```
-![](http://gifsb.in/codes/floppy-discs.gif)
+An amazingly easy-to-read set of dotfiles I've modified to fit me. Thanks and high fives are due to [bradp](github.com:bradp/dotfiles.git) for sharing!
+
 
 ## Quick installation:
-
 
 ```
 $ cd ~
@@ -21,7 +21,7 @@ $ rake
 ```
 OR
 
-``curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/bootstrap | sudo bash`` to also install all requirments (Zsh, and friends, etc.)
+``curl https://raw.githubusercontent.com/bradp/dotfiles/master/misc/bootstrap | sudo bash`` to also install all requirements (zsh, and friends, etc.)
 
 ## How to use
 
