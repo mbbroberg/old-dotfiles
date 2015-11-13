@@ -7,26 +7,69 @@
 # ░░████████ ███░██░░████████ ██████ ░░██████ ██████
 #  ░░░░░░░░ ░░░ ░░  ░░░░░░░░ ░░░░░░   ░░░░░░ ░░░░░░
 #
+
+## Ones I want to remember to use!
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
 alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias ssource='source ~/.zshrc'
+alias hosts="sudo $EDITOR /etc/hosts"
 
+# Common typos
+alias "cd.."="cd .."
+alias exot=exit
+
+
+# Shortcuts
 alias lss="ls -Gal"
 alias lp="ls -p"
-
 alias h="history"
-alias "cd.."="cd .."
-
-alias hosts="sudo $EDITOR /etc/hosts"
 alias c="cd"
 alias g="git"
 alias gs="git status"
 alias gcm="git commit -m"
 alias e="$EDITOR ."
 alias ql="qlmanage -p"
+alias caff="caffeinate -dis"
+alias lc="lolcat"
+alias tailf="less +F $0"
+alias sha256="shasum -a 256 "$1" "
 
+
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+
+# For the lols
 alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
 alias yoloo="git commit -am '`curl -s http://whatthecommit.com/index.txt`' && git push origin master --force"
+# http://xkcd.com/530/
+alias stfu="osascript -e 'set volume output muted true'"
+alias pumpitup="osascript -e 'set volume 10'"
+alias bell='echo "\a"'
+
 
 alias unhidelibrary="chflags nohidden ~/Library"
 alias showdotfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
@@ -42,20 +85,6 @@ alias vp="vagrant provision"
 alias vs='sites && vagrant ssh'
 alias vag="vagrant"
 
-alias caff="caffeinate -dis"
-alias lc="lolcat"
-
-# http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume 10'"
-
-alias bell='echo "\a"'
-
-alias v=vim
-alias vi=vim
-alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
-alias mvi=mvim
-
 alias currentdate='date "+%Y.%m.%d"'
 
 alias fs='fortune -as | cowsay -f small | lolcat'
@@ -64,9 +93,7 @@ alias ip="curl ipinfo.io/ip"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias stest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
-alias ack=ag
-
-alias server="python -m SimpleHTTPServer" # start virutal server in the present directory
+alias server="python -m SimpleHTTPServer" # start virtual server in the present directory
 
 alias ll1="tree --dirsfirst -ChFL 1"
 alias ll2="tree --dirsfirst -ChFL 2"
@@ -76,8 +103,6 @@ alias ll5="tree --dirsfirst -ChFupDaL 2"
 alias ll6="tree --dirsfirst -ChFupDaL 3"
 
 alias gist="gist -ec $1"
-alias exot=exit
-
 alias 3d="figlet -f 3d $1"
 
 alias pc='phpcs --standard="WordPress" $@'
@@ -87,54 +112,16 @@ alias pcfall='find . | grep .php | xargs phpcbf --standard="WordPress"'
 alias dand=dandelion
 alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git push origin master && dandelion deploy"
 
-alias tailf="less +F $0"
-
-alias sha256="shasum -a 256 "$1" "
-
-
-
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
-
-# Stopwatch
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
-
-
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
-
 # View HTTP traffic
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
-
-
-# Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
-
-# Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# Hide/show all desktop icons (useful when presenting)
-alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-
 
 # Intuitive map function
 # For example, to list all directories that contain a certain file:
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
-
-
-# Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-# Reload the shell (i.e. invoke as a login shell)
-alias reload="exec $SHELL -l"
