@@ -9,26 +9,29 @@
 # ░░       ░░░░░░░░    ░░  ░░   ░░ ░░░░░░
 #
 
+###### My Everyday Paths #######
+export GODEV="/Users/mjbrende/go/src/github.com/mjbrender"
+export WORK="/Users/mjbrende/Documents/Develop/SDI"
+export PLAY="/Users/mjbrende/Documents/Develop"
 
-alias sites="cd ~/Sites/www"
-
-alias docs="cd ~/Documents/"
+# Shortcuts
+alias dot="cd ~/Documents/Develop/dotfiles"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
+# Go Development
 export GOPATH="$HOME/go"
 export GOROOT="/usr/local/go"
-export GODEV="$GOPATH/src/github.com/mjbrender"
 
-export WORK="/Users/basho/Google Drive/Basho-Dev"
-export PLAY="/Users/basho/Documents/Develop"
-export GODEV="/Users/basho/go/src/github.com/mjbrender"
+# Web dev
+alias sites="cd ~/Sites/www"
+
+# GCloud
+# The next line updates PATH for the Google Cloud SDK.
+#source '/Users/mjbrende/google-cloud-sdk/path.zsh.inc'
+# The next line enables shell command completion for gcloud.
+#source '/Users/mjbrende/google-cloud-sdk/completion.zsh.inc'
+
 
 export PATH="$GOROOT/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/basho/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables shell command completion for gcloud.
-source '/Users/basho/google-cloud-sdk/completion.zsh.inc'
