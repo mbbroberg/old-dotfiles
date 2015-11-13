@@ -79,8 +79,6 @@ set lazyredraw
 " ==============================
 "
 
-inoremap jk <esc> " jk is escape
-
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 
