@@ -19,50 +19,92 @@ fi
 echo "Updating homebrew..."
 brew update
 
-echo "Installing Git..."
-brew install git
+
+echo "Installing homebrew cask"
+brew install caskroom/cask/brew-cask
+
+# Create Develop folder if I don't have it already
+if test ! $(cp ~/Documents/Develop); then
+  echo "making Develop folder"
+  mkdir ~/Documents/Develop
+fi
+
+echo "Copying dotfiles from Github"
+cd ~/Documents/Develop
+git clone --recursive git@github.com:mjbrender/dotfiles.git dotfiles
+cd ~/dotfiles
+rake
 
 echo "Git config"
-
-# git config --global user.name "Brad Parbs"
-# git config --global user.email brad@bradparbs.com
-
-
-echo "Installing brew git utilities..."
-brew install git-extras
-brew install legit
-brew install git-flow
-
-echo "Installing other brew stuff..."
-brew install tig
-brew install tree
-brew install wget
-brew install trash
-brew install svn
-brew install node
-brew install python
-brew install imagemagick
-brew install cowsay
-brew install fortune
-brew install htop-osx
-brew install the_silver_searcher
-brew install vv
-brew install gist
-brew install shellcheck
+git config --global user.name "mjbrender"
+git config --global user.email mjbrender@gmail.com
 
 #@TODO install our custom fonts and stuff
 
 echo "Cleaning up brew"
 brew cleanup
 
-echo "Installing homebrew cask"
-brew install caskroom/cask/brew-cask
+# Packages
+packs=(
+ legit
+ tig
+ tree
+ trash
+ svn
+ imagemagick
+ zsh
+ zsh-completions
+ zsh-syntax-highlighting
+ git
+ git-extras
+ wget
+ tmux
+ python
+ npm
+ node
+)
 
-echo "Copying dotfiles from Github"
-cd ~
-git clone --recursive git@github.com:bradp/dotfiles.git dotfiles
-cd ~/dotfiles
-rake
+# Apps
+apps=(
+ alfred
+ firefox
+ iterm2
+ vagrant
+ skype
+ vlc
+ slack
+ google-chrome
+ boot2docker
+ virtualbox
+ sublime-text3
+ flash
+ screenflow
+ evernote
+ levelator
+ copy
+ google-drive
+ atom
+ macdown
+ flux
+ qlcolorcode # QuickLook plugins
+ qlstephen
+ qlmarkdown
+ quicklook-json
+ betterzipql
+ suspicious-package #End QuickLook plugins
+)
+
+echo "installing Packages..."
+brew install ${packs[@]}
+
+# Install apps to /Applications
+# Default is: /Users/$user/Applications
+echo "installing apps with Cask..."
+brew cask install --appdir="/Applications" ${apps[@]}
+
+brew cask alfred link
+brew cask cleanup
+brew cleanup
 
 echo "Grunting it up"
 npm install -g grunt-cli
@@ -74,52 +116,36 @@ sh ~/dotfiles/.oh-my-zsh/tools/install.sh
 echo "Setting ZSH as shell..."
 chsh -s /bin/zsh
 
-# Apps
-apps=(
- alfred
- firefox
- private-internet-access
- bartender
- harvest
- qlcolorcode
- suspicious-package
- bettertouchtool
- hipchat
- qlmarkdown
- transmission
- iterm2
- qlstephen
- transmit
- cleanmymac
- razer-synapse
- vagrant
- mailbox
- sequel-pro
- virtualbox
- skype
- vlc
- nvalt
- sourcetree
- zoomus
- dropbox
- spotify
- macdown
- macvim
- seil
- slack
-)
-
-# Install apps to /Applications
-# Default is: /Users/$user/Applications
-echo "installing apps with Cask..."
-brew cask install --appdir="/Applications" ${apps[@]}
-
-brew cask alfred link
-
-brew cask cleanup
-brew cleanup
-
 echo "Setting some Mac settings..."
+
+# Some stuff was taken from:
+# https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+# and
+# https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh
+# along with the original of
+# github.com/bradp/dotfiles
+
+# Set computer name (as done via System Preferences → Sharing)
+sudo scutil --set ComputerName "mjbrender"
+sudo scutil --set HostName "mjbrender"
+sudo scutil --set LocalHostName "mjbrender"
+
+#Disable the Startup Chime
+sudo nvram SystemAudioVolume=" "
+
+# Bottom right screen corner → Start screen saver
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-modifier -int 0
+
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+sudo defaults write com.apple.AppleMultitouchTrackpad Clicking 1
+
+#Secondary click
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
+
 
 #"Disabling system-wide resume"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
@@ -173,6 +199,31 @@ defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 #"Showing all filename extensions in Finder by default"
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
+/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Use list view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
 #"Disabling the warning when changing a file extension"
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
@@ -220,8 +271,8 @@ sudo pmset -a standbydelay 86400
 #"Disable annoying backswipe in Chrome"
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
-#"Setting screenshots location to ~/Desktop"
-defaults write com.apple.screencapture location -string "$HOME/Desktop"
+# Save screenshots to the downlaods.
+defaults write com.apple.screencapture location "$HOME/Downloads/"
 
 #"Setting screenshot format to PNG"
 defaults write com.apple.screencapture type -string "png"
@@ -254,28 +305,6 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 
 #"Adding a context menu item for showing the Web Inspector in web views"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
-
-#"Use `~/Downloads/Incomplete` to store incomplete downloads"
-defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Downloads/Incomplete"
-
-#"Don't prompt for confirmation before downloading"
-defaults write org.m0k.transmission DownloadAsk -bool false
-
-#"Trash original torrent files"
-defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
-
-#"Hide the donate message"
-defaults write org.m0k.transmission WarningDonate -bool false
-
-#"Hide the legal disclaimer"
-defaults write org.m0k.transmission WarningLegal -bool false
-
-#"Disable 'natural' (Lion-style) scrolling"
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
-
-# Donâ€™t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false
 
 killall Finder
 
