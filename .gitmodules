@@ -4,12 +4,3 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "bin/vv"]
-	path = bin/vv
-	url = git@github.com:bradp/vv.git
-[submodule ".grunt-init/wp-plugin"]
-	path = .grunt-init/wp-plugin
-	url = git@github.com:jtsternberg/grunt-wp-plugin.git
-[submodule ".grunt-init/wp-underscores"]
-	path = .grunt-init/wp-underscores
-	url = git@github.com:ericmann/grunt-wp-underscores.git
