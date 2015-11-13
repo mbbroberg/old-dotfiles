@@ -15,57 +15,15 @@ set nocompatible
 set noshowmode
 syntax on
 
-" ==============================
-" Plugins
-" ==============================
-"
-call plug#begin('~/.vim/plugged')
-
-Plug 'rking/ag.vim'
-Plug 'kien/ctrlp.vim'
-Plug 'myusuf3/numbers.vim'
-Plug 'shawncplus/phpcomplete.vim'
-Plug 'ervandew/supertab'
-Plug 'scrooloose/syntastic'
-Plug 'tomtom/tcomment_vim'
-" Plug 'SirVer/ultisnips'
-Plug 'bling/vim-airline'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'tpope/vim-sensible'
-Plug 'mhinz/vim-startify'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-vinegar'
-" Plug 'Valloric/YouCompleteMe',         { 'do': './install.sh' }
-Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-fugitive'
-Plug 'ap/vim-css-color'
-Plug 'scrooloose/nerdcommenter'
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'fatih/vim-go'
-Plug 'majutsushi/tagbar'
-Plug 'bronson/vim-trailing-whitespace'
-
-call plug#end()
-
 "
 " ==============================
 "	Interface Settings
 " ==============================
 "
 set number " Display line numbers on the left
-set colorcolumn=81,121 " Set a column at 81 chars wide
 set encoding=utf-8
 set guifont=Inconsolata\ for\ Powerline
 let g:syntastic_always_populate_loc_list = 1
-set confirm " confim instead of error when leaving unsaved file
-let g:syntastic_always_populate_loc_list = 1
-set mouse=a " Enable use of the mouse for all modes
-let g:startify_custom_header = map(split(system('fortune -as | cowsay -f small'), '\n'), '"   ". v:val') + ['','']
-let g:startify_change_to_vcs_root = 1
-let g:ctrlp_reuse_window  = 'startify'
 "
 " ==============================
 "	Color Scheme
@@ -74,7 +32,6 @@ let g:ctrlp_reuse_window  = 'startify'
 syntax enable
 set background=dark
 syntax on " Enable syntax highlighting
-let macvim_skip_colorscheme=1
 "
 " ==============================
 "	Search
@@ -116,61 +73,11 @@ set noswapfile " eff swp files
 set nobackup
 set nowritebackup
 set lazyredraw
-
-let g:UltiSnipsListSnippets = "<C-g><Tab>"
-let g:UltiSnipsExpandTrigger = "<Tab>"
-let g:UltiSnipsJumpForwardTrigger = "<Tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<S-Tab>"
-let g:UltiSnipsSnippetsDir = "~/.vim/snips"
-let g:UltiSnipsSnippetDirectories = ["snips"]
-
-let g:ycm_filetype_blacklist = {
-      \ 'tagbar' : 1,
-      \ 'qf' : 1,
-      \ 'notes' : 1,
-      \ 'markdown' : 1,
-      \ 'unite' : 1,
-      \ 'text' : 1,
-      \ 'vimwiki' : 1,
-      \ 'pandoc' : 1,
-      \ 'infolog' : 1,
-      \ 'mail' : 1,
-      \ 'html': 1,
-      \ }
-let g:ycm_complete_in_strings = 0
-let g:ycm_autoclose_preview_window_after_insertion = 1
-" Remove <Tab> from maps lest YCM hijack our mapping from above
-let g:ycm_key_list_select_completion = ['<Down>']
-let g:ycm_key_list_previous_completion = ['<Up>']
-
-let g:syntastic_php_checkers = ['php', 'phpcs']
-let g:syntastic_php_phpcs_args="--report=csv --standard=WordPress"
-
-
-let g:phpcomplete_parse_docblock_comments = 1
-
-let g:go_fmt_command = "goimports"
-
-
-
 "
 " ==============================
 "	Keybindings and Mappings
 " ==============================
 "
-let mapleader = "\<Space>"
-let g:mapleader = "\<Space>"
-
-nmap <leader>q :q!<cr>
-nmap <leader>w :w!<cr>
-nmap <leader>s :w!<cr>
-nmap <leader>/ <leader>c<space><cr>
-nmap <leader>g :Gstatus<cr>
-nmap <leader>t :TagbarToggle<cr>
-
-nnoremap <silent> ]c /\v^(\<\|\=\|\>){7}([^=].+)?$<CR>
-nnoremap <silent> [c ?\v^(\<\|\=\|\>){7}([^=].+)\?$<CR>
-nnoremap ; :
 
 inoremap jk <esc> " jk is escape
 
@@ -183,9 +90,3 @@ nnoremap <F4> :NumbersOnOff<CR>
 command Wq wq
 command Q q
 command W w
-
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-nmap q :nohlsearch<CR>
