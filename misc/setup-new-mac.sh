@@ -1,4 +1,4 @@
-echo "Creating an SSH key for you..."
+#echo "Creating an SSH key for you..."
 ssh-keygen -t rsa
 
 echo "Please add this public key to Github \n"
@@ -105,6 +105,11 @@ brew cask install --appdir="/Applications" ${apps[@]}
 brew cask alfred link
 brew cask cleanup
 brew cleanup
+
+echo "Customizing Atom"
+apm install box-edit
+apm install TODO-show
+apm install minimap
 
 echo "Grunting it up"
 npm install -g grunt-cli
@@ -307,5 +312,9 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 killall Finder
+
+echo "Permission updates so we can update things"
+sudo chown -R $(whoami):admin /usr/local
+sudo chown -R $(whoami):admin /Library/Ruby
 
 echo "Done!"
