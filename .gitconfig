@@ -9,9 +9,9 @@
 
 
 [user]
-    name = Matt Brender
-    email = mjbrender@gmail.com
-    github = mjbrender
+	name = Matt Brender
+	email = mjbrender@gmail.com
+  github = mjbrender
 [core]
 	editor = vi
 	excludesfile = /Users/mjbrende/Documents/Develop/dotfiles/.global_ignore
