@@ -36,7 +36,7 @@ cd ~/dotfiles
 rake
 
 echo "Git config"
-git config --global user.name "mjbrender"
+git config --global user.name "Matt Brender"
 git config --global user.email mjbrender@gmail.com
 
 #@TODO install our custom fonts and stuff
