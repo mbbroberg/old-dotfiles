@@ -125,3 +125,6 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 # For example, to list all directories that contain a certain file:
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
+
+## Helpful gitfu
+alias git_branches="for b in `git branch -r | grep -v -- '->'`; do git branch --track ${b##origin/} $b; done"
