@@ -12,6 +12,11 @@
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+## Helpful gitfu
+## This doesn't work for whatever reason.
+## Errors on new terminal window with "Not a git repository"
+#alias gbranches="for b in \`git branch -r | grep -v -- '->'`; do git branch --track ${b##origin/} $b; done;"
+
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
@@ -63,8 +68,8 @@ alias .....="cd ../../../.."
 
 
 # For the lols
-alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
-alias yoloo="git commit -am '`curl -s http://whatthecommit.com/index.txt`' && git push origin master --force"
+#alias yolo="git commit -am '`curl -s http://whatthecommit.com/index.txt`'"
+#alias yoloo="git commit -am '`curl -s http://whatthecommit.com/index.txt`' && git push origin master --force"
 # http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
@@ -125,6 +130,3 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 # For example, to list all directories that contain a certain file:
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
-
-## Helpful gitfu
-alias git_branches="for b in `git branch -r | grep -v -- '->'`; do git branch --track ${b##origin/} $b; done"
