@@ -220,11 +220,13 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>356 107 924 485 0 0 1280 777 </string>
+	<string>327 193 924 485 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3 475 1258 295 0 0 1280 777 </string>
+	<string>3 384 1026 387 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>149 49 650 349 0 0 1280 777 </string>
+	<string>3 47 650 501 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>173 276 650 501 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -774,11 +776,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Ubuntu 12</string>
+			<string>SauceCodePowerline-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Hack 14</string>
+			<string>Hack-Regular 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -1678,10 +1680,12 @@
 			<string>/Users/mjbrende</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>468836095.94222498</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>472652546.86597401</real>
+	<real>474960705.79911202</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1744,7 +1748,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-24T12:22:19Z</date>
+	<date>2016-01-20T05:31:44Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
