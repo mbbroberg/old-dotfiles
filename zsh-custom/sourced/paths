@@ -9,19 +9,19 @@
 # ░░       ░░░░░░░░    ░░  ░░   ░░ ░░░░░░
 #
 
+# Go Development
+export GOPATH="$HOME/go"
+export GOROOT="/usr/local/go"
+
 ###### My Everyday Paths #######
-export GODEV="/Users/mjbrende/go/src/github.com/mjbrender"
-export WORK="/Users/mjbrende/Documents/Develop/SDI"
+export GODEV="$GOPATH/src/github.com/mjbrender"
+export WORK="$GOPATH/src/github.com/intelsdi-x"
 export PLAY="/Users/mjbrende/Documents/Develop"
 
 # Shortcuts
 alias dot="cd ~/Documents/Develop/dotfiles"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-
-# Go Development
-export GOPATH="$HOME/go"
-export GOROOT="/usr/local/go"
 
 # Web dev
 alias sites="cd ~/Sites/www"

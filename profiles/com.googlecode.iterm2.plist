@@ -222,7 +222,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>327 193 924 485 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3 384 1026 387 0 0 1280 777 </string>
+	<string>3 399 1274 371 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>3 47 650 501 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1685,7 +1685,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>468836095.94222498</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>474960705.79911202</real>
+	<real>475777932.25627601</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1748,7 +1748,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-01-20T05:31:44Z</date>
+	<date>2016-01-29T16:32:11Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
