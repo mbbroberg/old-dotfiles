@@ -50,9 +50,14 @@
     untracked = cyan
 
 [alias]
+		# GitHub pull request aliases (https://gist.github.com/gnarf/5406589)
+		pr = !git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && :
+		pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
+		# Moar logging!
     ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+		# Others
     st = status -sb
     filelog = log -u
     done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1}  && git push

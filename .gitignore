@@ -7,4 +7,5 @@
 .secret
 zsh-custom/sourced/secret
 secret/
+profiles/com.googlecode.iterm2.plist
 .gitconfig

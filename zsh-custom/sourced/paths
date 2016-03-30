@@ -10,8 +10,8 @@
 #
 
 # Go Development
-export GOPATH="$HOME/go"
-export GOROOT="/usr/local/go"
+# gvm is your friend #Golang
+[[ -s /Users/mjbrende/.gvm/scripts/gvm ]] && source /Users/mjbrende/.gvm/scripts/gvm
 
 ###### My Everyday Paths #######
 export GODEV="$GOPATH/src/github.com/mjbrender"
@@ -26,8 +26,7 @@ alias dt="cd ~/Desktop"
 # Web dev
 alias sites="cd ~/Sites/www"
 
-# gvm is your friend #Golang
-[[ -s /Users/mjbrende/.gvm/scripts/gvm ]] && source /Users/mjbrende/.gvm/scripts/gvm
+
 
 # GCloud
 # The next line updates PATH for the Google Cloud SDK.
