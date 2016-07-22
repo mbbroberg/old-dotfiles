@@ -36,4 +36,3 @@ alias sites="cd ~/Sites/www"
 
 
 export PATH="$GOROOT/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"

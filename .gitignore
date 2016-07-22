@@ -2,6 +2,7 @@
 .maid/rules.sample.rb
 .swp
 .netrwhist
+.oh-my-zsh
 .vim/tmp/
 .vim/plugged/*
 .secret
@@ -9,3 +10,4 @@ zsh-custom/sourced/secret
 secret/
 profiles/com.googlecode.iterm2.plist
 .gitconfig
+*log

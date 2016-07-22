@@ -28,14 +28,14 @@ plugins=(
 	git
 	git-extras
 	github
+	tmux
+	tmuxinator
 	lol
 	nyan
 	osx
-  go
-  ruby
-  scala
-	parbs-sites
-	sublime
+  	go
+  	ruby
+	docker
 	vagrant
 	z
 	zsh-syntax-highlighting
@@ -51,14 +51,8 @@ PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
 PATH=${PATH}:/usr/sbin
 PATH=${PATH}:/sbin
-#PATH=${PATH}:/usr/local/git/bin
-#PATH=${PATH}:/opt/sm/bin
-#PATH=${PATH}:/opt/sm/pkg/active/bin
-#PATH=${PATH}:/opt/sm/pkg/active/sbin
-#PATH=${PATH}:/usr/local/heroku/bin
-PATH=${PATH}:"$HOME"/Documents/Develop/dotfiles/misc
-PATH=${PATH}:"$HOME"/Documents/Develop/dotfiles/bin
-#PATH=${PATH}:"$HOME"/.composer/vendor/bin
-PATH=${PATH}:"$HOME"/go/bin
+PATH=${PATH}:$HOME/.rvm/bin  # Add RVM to PATH for scripting
+PATH=${PATH}:/usr/local/sbin # for homebrew (brew)
+PATH=${PATH}:$HOME/Documents/Develop/dotfiles/bin # dotfile binaries
 
 export PATH=${PATH}
