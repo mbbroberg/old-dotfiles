@@ -17,6 +17,9 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 ## Errors on new terminal window with "Not a git repository"
 #alias gbranches="for b in \`git branch -r | grep -v -- '->'`; do git branch --track ${b##origin/} $b; done;"
 
+# use syntax highlighting cat instead of regular cat
+alias cat=ccat
+
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 

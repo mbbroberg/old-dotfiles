@@ -1,0 +1,7 @@
+#!/bin/bash
+
+function ct
+  # infer a session name from the current dir and normalize it for a valid tmux session name
+  set -g session (basename (pwd) | sed 's/[\.\-]/_/g')
+  tmux attach -t $session; or tmux new-session -s $session	  
+end
