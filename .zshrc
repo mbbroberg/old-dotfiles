@@ -29,7 +29,6 @@ plugins=(
 	git-extras
 	github
 	tmux
-	tmuxinator
 	lol
 	nyan
 	osx

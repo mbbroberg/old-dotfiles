@@ -11,3 +11,4 @@ secret/
 profiles/com.googlecode.iterm2.plist
 .gitconfig
 *log
+.DS_Store
