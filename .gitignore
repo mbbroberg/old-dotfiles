@@ -2,7 +2,7 @@
 .maid/rules.sample.rb
 .swp
 .netrwhist
-.oh-my-zsh
+.oh-my-zsh/*
 .vim/tmp/
 .vim/plugged/*
 .secret
