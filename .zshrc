@@ -40,6 +40,8 @@ plugins=(
 	zsh-syntax-highlighting
 )
 
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+
 source $HOME/Documents/Develop/dotfiles/.oh-my-zsh/oh-my-zsh.sh
 for file in $HOME/Documents/Develop/dotfiles/zsh-custom/sourced/*; do
    source "$file"
