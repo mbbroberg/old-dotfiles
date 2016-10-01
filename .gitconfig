@@ -19,7 +19,7 @@
   github = mjbrender
 
 [core]
-	editor = vi
+	editor = atom --wait
 	excludesfile = /Users/mjbrende/Documents/Develop/dotfiles/.global_ignore
 
     # Enable parallel I/O for operations like "git diff".
