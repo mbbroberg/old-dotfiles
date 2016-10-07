@@ -70,9 +70,6 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 
-# For the lols
-alias yolo="git commit -am '`curl -s http://whatthecommit.com/`'"
-alias yoloo="git commit -am '`curl -s http://whatthecommit.com/`' && git push origin master --force"
 # http://xkcd.com/530/
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 10'"
