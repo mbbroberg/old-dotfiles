@@ -129,3 +129,11 @@ alias map="xargs -n1"
 # Docker configuration
 alias dockerrm="docker rm $(docker ps -a -q)"
 alias dockerrmi="echo docker rmi $(docker images -a | grep "^<none>" | awk "{print $3}")"
+
+# Shortcuts
+alias dot="cd ~/Documents/Develop/dotfiles"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+
+# Web dev
+alias sites="cd ~/Sites/www"

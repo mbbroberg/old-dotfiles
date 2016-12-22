@@ -44,13 +44,8 @@ for file in $HOME/Documents/Develop/dotfiles/zsh-custom/sourced/*; do
    source "$file"
 done
 
-PATH=${PATH}:/usr/local/bin
-PATH=${PATH}:/usr/bin
-PATH=${PATH}:/bin
-PATH=${PATH}:/usr/sbin
-PATH=${PATH}:/sbin
-PATH=${PATH}:$HOME/.rvm/bin  # Add RVM to PATH for scripting
-PATH=${PATH}:/usr/local/sbin # for homebrew (brew)
-PATH=${PATH}:$HOME/Documents/Develop/dotfiles/bin # dotfile binaries
+# When working with training by @bketelsen 
+# Uses direnv to have relative GOPATHs: https://direnv.net/
+eval "$(direnv hook zsh)"
 
 export PATH=${PATH}

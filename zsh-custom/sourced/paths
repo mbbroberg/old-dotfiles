@@ -10,23 +10,14 @@
 #
 
 # Go Development
-# gvm is your friend #Golang
-[[ -s /Users/mjbrende/.gvm/scripts/gvm ]] && source /Users/mjbrende/.gvm/scripts/gvm
+# gvm is no longer my friend #golang
+#[[ -s /Users/mjbrende/.gvm/scripts/gvm ]] && source /Users/mjbrende/.gvm/scripts/gvm
+export GOPATH=$HOME/go
 
 ###### My Everyday Paths #######
 export GODEV="$GOPATH/src/github.com/mjbrender"
 export WORK="$GOPATH/src/github.com/intelsdi-x"
 export PLAY="/Users/mjbrende/Documents/Develop"
-
-# Shortcuts
-alias dot="cd ~/Documents/Develop/dotfiles"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-
-# Web dev
-alias sites="cd ~/Sites/www"
-
-
 
 # GCloud
 # The next line updates PATH for the Google Cloud SDK.
@@ -34,5 +25,13 @@ alias sites="cd ~/Sites/www"
 # The next line enables shell command completion for gcloud.
 #source '/Users/mjbrende/google-cloud-sdk/completion.zsh.inc'
 
-
-export PATH="$GOROOT/bin:$PATH"
+PATH=${PATH}:/usr/local/bin
+PATH=${PATH}:/usr/bin
+PATH=${PATH}:/bin
+PATH=${PATH}:/usr/sbin
+PATH=${PATH}:/sbin
+PATH=${PATH}:$HOME/.rvm/bin  # Add RVM to PATH for scripting
+PATH=${PATH}:/usr/local/sbin # for homebrew (brew)
+PATH=${PATH}:$HOME/Documents/Develop/dotfiles/bin # dotfile binaries
+PATH=${PATH}:$GOPATH/bin        # Go development path layout
+PATH=${PATH}:/usr/local/go/bin  # 
