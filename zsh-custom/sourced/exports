@@ -9,7 +9,7 @@
 #
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
 
-export EDITOR="code";
+export EDITOR="atom";
 
 export GREP_OPTIONS="--color=auto";
 

@@ -23,10 +23,10 @@ setopt INTERACTIVE_COMMENTS
 
 plugins=(
 	brew
-	brew-cask
+		brew-cask
 	git
-	git-extras
-	github
+		git-extras
+		github
 	tmux
 	osx
   	go
@@ -35,6 +35,7 @@ plugins=(
 	vagrant
 	z
 	zsh-syntax-highlighting
+	zsh-autosuggestions
 )
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
@@ -44,7 +45,7 @@ for file in $HOME/Documents/Develop/dotfiles/zsh-custom/sourced/*; do
    source "$file"
 done
 
-# When working with training by @bketelsen 
+# When working with training by @bketelsen
 # Uses direnv to have relative GOPATHs: https://direnv.net/
 eval "$(direnv hook zsh)"
 

@@ -1,8 +1,0 @@
-#!/bin/bash
-
-gem=/usr/local/bin/gem
-logger=/usr/bin/logger
-
-#$gem update 2>&1  | $logger -t gemup.update
-#$gem upgrade 2>&1 | $logger -t gemup.upgrade
-#$gem cleanup 2>&1 | $logger -t gemup.cleanup

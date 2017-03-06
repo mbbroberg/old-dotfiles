@@ -8,6 +8,9 @@
 #  ░░░░░░░░ ░░░ ░░  ░░░░░░░░ ░░░░░░   ░░░░░░ ░░░░░░
 #
 
+# to use this awesome tool: https://hub.github.com/
+alias git=hub
+
 ## Ones I want to remember to use!
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
@@ -90,15 +93,7 @@ alias vp="vagrant provision"
 alias vs='sites && vagrant ssh'
 alias vag="vagrant"
 
-alias currentdate='date "+%Y.%m.%d"'
 
-alias fs='fortune -as | cowsay -f small | lolcat'
-
-alias ip="curl ipinfo.io/ip"
-alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
-alias stest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
-
-alias server="python -m SimpleHTTPServer" # start virtual server in the present directory
 
 alias ll1="tree --dirsfirst -ChFL 1"
 alias ll2="tree --dirsfirst -ChFL 2"
@@ -110,7 +105,7 @@ alias ll6="tree --dirsfirst -ChFupDaL 3"
 alias gist="gist -ec $1"
 
 alias mux=tmuxinator
-alias gifs_deploy="sh generate_json && git add . && git commit -m 'Gifs' && git push origin master && dandelion deploy"
+alias stest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -134,6 +129,8 @@ alias dockerrmi="echo docker rmi $(docker images -a | grep "^<none>" | awk "{pri
 alias dot="cd ~/Documents/Develop/dotfiles"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias work=$WORK
+alias play=$PLAY
 
 # Web dev
 alias sites="cd ~/Sites/www"

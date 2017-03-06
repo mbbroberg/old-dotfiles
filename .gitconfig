@@ -14,9 +14,9 @@
 	#fetch = +refs/pull/*/head:refs/remotes/origin/pull/*
 
 [user]
-	name = Matt Brender
-	email = mjbrender@gmail.com
-  github = mjbrender
+	name = Matthew Broberg
+	email = matthewbbroberg@gmail.com
+  github = mbbroberg
 
 [core]
 	editor = atom --wait
