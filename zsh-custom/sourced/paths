@@ -15,9 +15,9 @@
 export GOPATH=$HOME/go
 
 ###### My Everyday Paths #######
-export GODEV="$GOPATH/src/github.com/mjbrender"
+export GODEV="$GOPATH/src/github.com/mbbroberg"
 export WORK="$GOPATH/src/github.com/intelsdi-x"
-export PLAY="/Users/mjbrende/Documents/Develop"
+export DEV="/Users/mjbrende/Documents/Develop"
 
 # GCloud
 # The next line updates PATH for the Google Cloud SDK.
@@ -30,8 +30,7 @@ PATH=${PATH}:/usr/bin
 PATH=${PATH}:/bin
 PATH=${PATH}:/usr/sbin
 PATH=${PATH}:/sbin
-PATH=${PATH}:$HOME/.rvm/bin  # Add RVM to PATH for scripting
-PATH=${PATH}:/usr/local/sbin # for homebrew (brew)
+PATH=${PATH}:$HOME/.rvm/bin                       # Add RVM to PATH for scripting
+PATH=${PATH}:/usr/local/sbin                      # for homebrew (brew)
 PATH=${PATH}:$HOME/Documents/Develop/dotfiles/bin # dotfile binaries
-PATH=${PATH}:$GOPATH/bin        # Go development path layout
-PATH=${PATH}:/usr/local/go/bin  # 
+PATH=${PATH}:$GOPATH/bin                          # Go development path layout
