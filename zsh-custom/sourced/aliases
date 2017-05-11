@@ -104,7 +104,6 @@ alias ll6="tree --dirsfirst -ChFupDaL 3"
 
 alias gist="gist -ec $1"
 
-alias mux=tmuxinator
 alias stest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 # IP addresses
@@ -129,8 +128,8 @@ alias dockerrmi="echo docker rmi $(docker images -a | grep "^<none>" | awk "{pri
 alias dot="cd ~/Documents/Develop/dotfiles"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias work=$WORK
-alias play=$PLAY
+alias work="cd $WORK"
+alias play="cd $DEV"
 
 # Web dev
 alias sites="cd ~/Sites/www"
