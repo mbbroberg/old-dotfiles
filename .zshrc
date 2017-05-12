@@ -8,7 +8,7 @@
 #	░░░░░░ ░░░░░░  ░░   ░░ ░░░     ░░░░░
 
 ZSH=$HOME/Documents/Develop/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
-ZSH_THEME="agnoster" # Set name of the theme to load.
+ZSH_THEME="agnoster" # Set name of the theme to load from ./zsh-custom/themes/
 
 DEFAULT_USER="mjbrende"
 COMPLETION_WAITING_DOTS="true"
@@ -20,6 +20,7 @@ ZSH_HIGHLIGHT_PATTERNS=('rm -rf *' 'fg=white,bold,bg=red')
 unsetopt nomatch
 setopt APPEND_HISTORY
 setopt INTERACTIVE_COMMENTS
+setopt HIST_FIND_NO_DUPS 		# no duplicates in history
 
 plugins=(
 	brew
