@@ -10,7 +10,7 @@
 ZSH=$HOME/Documents/Develop/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
 ZSH_THEME="agnoster" # Set name of the theme to load from ./zsh-custom/themes/
 
-DEFAULT_USER="mjbrende"
+DEFAULT_USER="mbbroberg"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
 ZSH_CUSTOM=$HOME/Documents/Develop/dotfiles/zsh-custom

@@ -29,73 +29,83 @@ if test ! $(cp ~/Documents/Develop); then
   mkdir ~/Documents/Develop
 fi
 
-echo "Copying dotfiles from Github"
+echo "Copying dotfiles from GitHub"
 cd ~/Documents/Develop
-git clone --recursive git@github.com:mjbrender/dotfiles.git dotfiles
+git clone --recursive git@github.com:mbbroberg/dotfiles.git dotfiles
 cd ~/dotfiles
 rake
 
-echo "Git config"
-git config --global user.name "Matt Brender"
-git config --global user.email mjbrender@gmail.com
+echo "Git config setup"
+git config --global user.name "Matthew Broberg"
+git config --global user.email matthewbbroberg@gmail.com
+git config --global user.github mbbroberg
 
 #@TODO install our custom fonts and stuff
 
 echo "Cleaning up brew"
 brew cleanup
 
-# Packages
-packs=(
- legit
- tig
- tree
- trash
- svn
- imagemagick
- zsh
- zsh-completions
- zsh-syntax-highlighting
- git
- git-extras
- wget
- tmux
- python
- npm
- node
+# what you run with 'brew install {blah}'
+formula=(
+  awscli
+  azure-cli
+  docker
+  git
+  git-extras
+  hub
+  imagemagick
+  jq
+  kubernetes-cli
+  kubernetes-helm
+  netcat
+  node
+  npm
+  pstree
+  python
+  tig
+  tmux
+  trash
+  tree
+  wget
+  zsh
+  zsh-completions
+  zsh-syntax-highlighting
 )
 
 # Apps
 apps=(
- alfred
- firefox
- iterm2
- vagrant
- skype
- vlc
- slack
- google-chrome
- boot2docker
- virtualbox
- sublime-text3
- flash
- screenflow
- evernote
- levelator
- copy
- google-drive
- atom
- macdown
- flux
- qlcolorcode # QuickLook plugins
- qlstephen
- qlmarkdown
- quicklook-json
- betterzipql
- suspicious-package #End QuickLook plugins
+  alfred
+  atom
+  betterzipql
+  evernote
+  firefox
+  flash
+  flux
+  google-chrome
+  google-drive
+  iterm2
+  levelator
+  limechat
+  macdown
+  minikube
+  qlcolorcode # QuickLook plugins
+  qlmarkdown
+  qlstephen
+  quicklook-json
+  skype
+  slack
+  spectacle
+  suspicious-package #End QuickLook plugins
+  vagrant
+  virtualbox
+  vlc
 )
 
+echo "Connect to extended Casks"
+brew tap caskroom/drivers
+
 echo "installing Packages..."
-brew install ${packs[@]}
+brew install ${formula[@]}
 
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
@@ -110,9 +120,16 @@ echo "Customizing Atom"
 apm install box-edit
 apm install TODO-show
 apm install minimap
-
-echo "Grunting it up"
-npm install -g grunt-cli
+apm install Sublime-Style-Column-Selection
+apm install markdown-table-formatter
+apm install linter-rubocop
+apm install linter-ui-default
+apm install box-edit
+apm install nord-atom-syntax
+apm install nord-atom-ui
+apm install outlander-syntax
+apm install outlander-ui
+apm install merge-conflicts
 
 #Install Zsh & Oh My Zsh
 echo "Installing Oh My ZSH..."
@@ -131,9 +148,9 @@ echo "Setting some Mac settings..."
 # github.com/bradp/dotfiles
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "mjbrender"
-sudo scutil --set HostName "mjbrender"
-sudo scutil --set LocalHostName "mjbrender"
+sudo scutil --set ComputerName "mbbroberg"
+sudo scutil --set HostName "mbbroberg"
+sudo scutil --set LocalHostName "mbbroberg"
 
 #Disable the Startup Chime
 sudo nvram SystemAudioVolume=" "
@@ -300,6 +317,11 @@ defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 #"Removing useless icons from Safari's bookmarks bar"
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
+#"
+
+# Prevent Photos from opening automatically when devices are plugged in
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
 #"Allow hitting the Backspace key to go to the previous page in history"
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
@@ -310,6 +332,78 @@ defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.Web
 
 #"Adding a context menu item for showing the Web Inspector in web views"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+#Some good ideas from here: github.com/mathiasbynens/dotfiles/blob/master/.macos
+
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Increase sound quality for Bluetooth headphones/headsets
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+
+###############################################################################
+# Finder                                                                      #
+###############################################################################
+
+# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
+
+
+# Set Desktop as the default location for new Finder windows
+# For other paths, use `PfLo` and `file:///full/path/here/`
+defaults write com.apple.finder NewWindowTarget -string "PfDe"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
+
+# Show icons for hard drives, servers, and removable media on the desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+
+# Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
+# When performing a search, search the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+# Use list view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Hot corners
+# Possible values:
+#  0: no-op
+#  2: Mission Control
+#  3: Show application windows
+#  4: Desktop
+#  5: Start screen saver
+#  6: Disable screen saver
+#  7: Dashboard
+# 10: Put display to sleep
+# 11: Launchpad
+# 12: Notification Center
+# Top left screen corner → Mission Control
+defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-tl-modifier -int 0
+# Top right screen corner → Desktop
+defaults write com.apple.dock wvous-tr-corner -int 4
+defaults write com.apple.dock wvous-tr-modifier -int 0
+# Bottom right screen corner → Start screen saver
+defaults write com.apple.dock wvous-br-corner -int 5
+defaults write com.apple.dock wvous-br-modifier -int 0
+
 
 killall Finder
 
