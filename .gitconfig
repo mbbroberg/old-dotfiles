@@ -144,6 +144,16 @@
     filelog = log -u
     done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1}  && git push
     unstage = reset HEAD --
+		
+		# Adding ideas from Harry Roberts on CSS Wizardry
+		stats = shortlog -sn
+		praise = blame
+		recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
+		
+		recap = git log --all --oneline --no-merges --author=matthewbbroberg@gmail.com
+		today = log --since=00:00:00 --all --no-merges --oneline --author=matthewbbroberg@gmail.com
+		
+
 
 [core]
 
