@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Socializing</string>
+		<key>notes</key>
+		<string>Catching up, saying I miss you. That kind of stuff.</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>;tyr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T21:37:02Z</date>
+			<key>label</key>
+			<string>You rock</string>
+			<key>modificationDate</key>
+			<date>2017-06-02T21:39:30Z</date>
+			<key>plainText</key>
+			<string>That was super awesome of you to do. Thank you - you rock 🤘</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B65457A7-652E-4CF3-B67C-8BD9FF3D0804</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;tya</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T21:38:58Z</date>
+			<key>label</key>
+			<string>Appreciate it!</string>
+			<key>modificationDate</key>
+			<date>2017-06-02T21:49:03Z</date>
+			<key>plainText</key>
+			<string>I really appreciate your help! 🙇</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DB484F5B-784F-4575-8576-65C8F8364F0D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;noreq</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T21:40:49Z</date>
+			<key>label</key>
+			<string>Not looking</string>
+			<key>modificationDate</key>
+			<date>2017-06-05T22:42:51Z</date>
+			<key>plainText</key>
+			<string>Thanks for thinking of me, but I'm not looking for anything new at the moment. If you have a link to the opportunity, I can share it with friends who may be on the search. Let me know if you have a referral bonus to provide incentive to really hunt down a good fit :)
+
+Best, 
+Matt</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6C967441-9186-47C7-A833-BE4F0B79872A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;cnow</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T18:14:08Z</date>
+			<key>htmlText</key>
+			<string>&lt;p class="paragraph"&gt;Hey got a min to chat? Have a thought to run by you. &lt;/p&gt;</string>
+			<key>label</key>
+			<string>catch up now</string>
+			<key>modificationDate</key>
+			<date>2017-06-02T21:42:40Z</date>
+			<key>plainText</key>
+			<string>Hey got a min to chat? Have a thought to run by you. </string>
+			<key>snippetType</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>28004D65-30BF-4300-8661-7F7579700939</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;mnew</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T18:17:05Z</date>
+			<key>label</key>
+			<string>miss you - what's new?</string>
+			<key>modificationDate</key>
+			<date>2017-06-02T18:18:09Z</date>
+			<key>plainText</key>
+			<string>Thinking of you. What are you reading or watching lately?</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>690C05DC-ED5E-4803-8D0D-0CF236F6C6CC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;csoon</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-02T18:14:08Z</date>
+			<key>htmlText</key>
+			<string>&lt;p class="paragraph"&gt;Yo, missing your face - need a catch up call soon. When's good?&lt;/p&gt;</string>
+			<key>label</key>
+			<string>catch up</string>
+			<key>modificationDate</key>
+			<date>2017-06-02T18:16:29Z</date>
+			<key>plainText</key>
+			<string>Yo, missing your face - need a catch up call soon. When's good?</string>
+			<key>snippetType</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>4B5FD528-D042-451D-98C8-4E73A4712CD9</string>
+		</dict>
+	</array>
+</dict>
+</plist>
