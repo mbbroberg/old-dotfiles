@@ -11,6 +11,13 @@
 # to use this awesome tool: https://hub.github.com/
 alias git=hub
 
+## Managing Terraform
+# To plan and write out the plan to a file:
+alias tfp='terraform plan -out=current.plan'
+
+# To apply the plan that was previously written to the file:
+alias tfa='terraform apply  -input=true current.plan'
+
 ## Ones I want to remember to use!
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
