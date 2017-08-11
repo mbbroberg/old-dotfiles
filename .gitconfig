@@ -16,47 +16,55 @@
 [user]
 	name = Matthew Broberg
 	email = matthewbbroberg@gmail.com
-  github = mbbroberg
+	github = mbbroberg
 
 [core]
 	editor = atom --wait
 	excludesfile = /Users/mjbrende/Documents/Develop/dotfiles/.global_ignore
 
-    # Enable parallel I/O for operations like "git diff".
-    preloadindex = true
+  # Enable parallel I/O for operations like "git diff".
+  preloadindex = true
 
-    # Use 12 characters for the abbreviated commit hash. I can currently make
-    # do with 10, but this should provide a certain level of safety for the
-    # near-ish future. See the interesting and well-researched article at
-    # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
-    abbrev = 12
+  # Use 12 characters for the abbreviated commit hash. I can currently make
+  # do with 10, but this should provide a certain level of safety for the
+  # near-ish future. See the interesting and well-researched article at
+  # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
+  abbrev = 12
 
 [mergetool]
 	keepBackup = true
 
 [color]
-    branch = auto
-    diff = auto
-    status = auto
-		ui = auto
+  branch = auto
+  diff = auto
+  status = auto
+  ui = auto
 
 [color "branch"]
-    current = red reverse
-    local = blue
-    remote = green
+  current = red reverse
+  local = blue
+  remote = green
 
 [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 
 [alias]
+
+    change = codereview change
+    gofmt = codereview gofmt
+    mail = codereview mail
+    pending = codereview pending
+    rebase-work = codereview rebase-work
+    submit = codereview submit
+    sync = codereview sync
 
 		# View abbreviated SHA, description, and history graph of the latest 20 commits
 		l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -144,15 +152,15 @@
     filelog = log -u
     done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1}  && git push
     unstage = reset HEAD --
-		
+
 		# Adding ideas from Harry Roberts on CSS Wizardry
 		stats = shortlog -sn
 		praise = blame
 		recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
-		
+
 		recap = git log --all --oneline --no-merges --author=matthewbbroberg@gmail.com
 		today = log --since=00:00:00 --all --no-merges --oneline --author=matthewbbroberg@gmail.com
-		
+
 
 
 [core]
