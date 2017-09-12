@@ -15,7 +15,7 @@
 
 [user]
 	name = Matthew Broberg
-	email = matthewbbroberg@gmail.com
+	email = gogetmb@gmail.com
 	github = mbbroberg
 
 [core]
@@ -218,3 +218,5 @@
 
 #[init]
 # templatedir = ~/dotfiles/.git_template
+[http]
+	cookiefile = /Users/mbbroberg/.gitcookies
