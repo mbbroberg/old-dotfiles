@@ -174,7 +174,7 @@ gh_toc_app() {
     done
 
     echo ""
-    echo "Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)"
+    echo "<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->"
 }
 
 #
