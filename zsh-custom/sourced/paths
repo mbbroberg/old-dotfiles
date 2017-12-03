@@ -12,17 +12,16 @@
 # Go Development
 # gvm is no longer my friend #golang
 #[[ -s /Users/mbbroberg/.gvm/scripts/gvm ]] && source /Users/mbbroberg/.gvm/scripts/gvm
-export GOPATH=$HOME/go
+export
+
+####### The way to Go #########
+GOPATH=$HOME/go
+GODEV="$GOPATH/src/github.com/"
+###############################
 
 ###### My Everyday Paths #######
-export GODEV="$GOPATH/src/github.com/"
-export DEV="/Users/mbbroberg/Documents/Develop"
-
-# GCloud
-# The next line updates PATH for the Google Cloud SDK.
-#source '/Users/mbbroberg/google-cloud-sdk/path.zsh.inc'
-# The next line enables shell command completion for gcloud.
-#source '/Users/mbbroberg/google-cloud-sdk/completion.zsh.inc'
+DEV="/Users/mbbroberg/Documents/Develop"
+################################
 
 PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/bin

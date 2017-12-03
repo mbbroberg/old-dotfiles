@@ -9,4 +9,4 @@
  ░░░░░░  ░░░░░░     ░░    ░░   ░░ ░░░  ░░░░░░ ░░░░░░
 
 ```
-An amazingly easy-to-read set of dotfiles I've modified to fit me. Thanks and high fives are due to [bradp](http://github.com/bradp/dotfiles.git) for sharing!
+An amazingly easy-to-read set of dotfiles I've modified to fit me. Thanks and high fives are due to [bradp](http://github.com/bradp/dotfiles) for sharing!
