@@ -220,3 +220,6 @@
 # templatedir = ~/dotfiles/.git_template
 [http]
 	cookiefile = /Users/mbbroberg/.gitcookies
+
+[pager]
+	branch = false
