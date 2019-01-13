@@ -26,3 +26,5 @@ export MANPAGER="less -X";
 setopt RM_STAR_WAIT
 
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
+
+export GPG_TTY=$(tty); # for gpg key management

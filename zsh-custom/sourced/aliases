@@ -9,7 +9,7 @@
 #
 
 # to use this awesome tool: https://hub.github.com/
-alias git=hub
+# alias git=hub
 
 ## Managing Terraform
 # To plan and write out the plan to a file:
@@ -132,11 +132,8 @@ alias dockerrm="docker rm $(docker ps -a -q)"
 alias dockerrmi="echo docker rmi $(docker images -a | grep "^<none>" | awk "{print $3}")"
 
 # Shortcuts
-alias dot="cd ~/Documents/Develop/dotfiles"
+alias dot="cd ~/Develop/dotfiles"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias work="cd $WORK"
 alias play="cd $DEV"
-
-# Web dev
-alias sites="cd ~/Sites/www"

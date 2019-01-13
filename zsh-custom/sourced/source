@@ -1,5 +1,0 @@
-# updates PATH for the Google Cloud SDK.
-source /Users/mbbroberg/google-cloud-sdk/path.zsh.inc
-
-# Enable shell command completion for gcloud
-source /Users/mbbroberg/google-cloud-sdk/completion.zsh.inc

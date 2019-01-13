@@ -9,18 +9,14 @@
 # ░░       ░░░░░░░░    ░░  ░░   ░░ ░░░░░░
 #
 
-# Go Development
-# gvm is no longer my friend #golang
-#[[ -s /Users/mbbroberg/.gvm/scripts/gvm ]] && source /Users/mbbroberg/.gvm/scripts/gvm
-export
-
 ####### The way to Go #########
 GOPATH=$HOME/go
 GODEV="$GOPATH/src/github.com/"
 ###############################
 
 ###### My Everyday Paths #######
-DEV="/Users/mbbroberg/Documents/Develop"
+DEV="/Users/mbbroberg/Develop/"
+#WORK="none rn"
 ################################
 
 PATH=${PATH}:/usr/local/bin
@@ -30,5 +26,5 @@ PATH=${PATH}:/usr/sbin
 PATH=${PATH}:/sbin
 PATH=${PATH}:$HOME/.rvm/bin                       # Add RVM to PATH for scripting
 PATH=${PATH}:/usr/local/sbin                      # for homebrew (brew)
-PATH=${PATH}:$HOME/Documents/Develop/dotfiles/bin # dotfile binaries
+PATH=${PATH}:$HOME/Develop/dotfiles/bin # dotfile binaries
 PATH=${PATH}:$GOPATH/bin                          # Go development path layout
