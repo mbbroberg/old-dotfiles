@@ -8,19 +8,19 @@
 #    ░░░░░  ░░    ░░   ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 
 
-# Uncomment if you want fetch to also get all github pull requests, this is rather
-# large on big repos.
+# Uncomment if you want fetch to also get all github pull requests. 
+# This is rather messy with big repos. Better to use `git pr` alias.
 #[remote "origin"]
-	#fetch = +refs/pull/*/head:refs/remotes/origin/pull/*
+  #fetch = +refs/pull/*/head:refs/remotes/origin/pull/*
 
 [user]
-	name = Matthew Broberg
-	email = 1744971+mbbroberg@users.noreply.github.com
-	github = mbbroberg
+  name = Matthew Broberg
+  email = 1744971+mbbroberg@users.noreply.github.com
+  github = mbbroberg
 
 [core]
-	editor = atom --wait
-	excludesfile = /Users/mjbrende/Documents/Develop/dotfiles/.global_ignore
+  editor = vim
+  excludesfile = /Users/mbbroberg/Develop/dotfiles/.global_ignore
 
   # Enable parallel I/O for operations like "git diff".
   preloadindex = true
@@ -31,8 +31,21 @@
   # http://blog.cuviper.com/2013/11/10/how-short-can-git-abbreviate/
   abbrev = 12
 
+  # Use custom `.gitignore` and `.gitattributes`
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+
+  # Treat spaces before tabs and all kinds of trailing whitespace as an error
+  # [default] trailing-space: looks for spaces at the end of a line
+  # [default] space-before-tab: looks for spaces before tabs at the beginning of a line
+  whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+
+  # Make `git rebase` safer on OS X
+  # More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
+  trustctime = false
+
 [mergetool]
-	keepBackup = true
+  keepBackup = true
 
 [color]
   branch = auto
@@ -57,169 +70,141 @@
   untracked = cyan
 
 [alias]
+  change = codereview change
+  gofmt = codereview gofmt
+  mail = codereview mail
+  pending = codereview pending
+  rebase-work = codereview rebase-work
+  submit = codereview submit
+  sync = codereview sync
 
-    change = codereview change
-    gofmt = codereview gofmt
-    mail = codereview mail
-    pending = codereview pending
-    rebase-work = codereview rebase-work
-    submit = codereview submit
-    sync = codereview sync
+  # View abbreviated SHA, description, and history graph of the latest 20 commits
+  l = log --pretty=oneline -n 20 --graph --abbrev-commit
+  
+  # View the current working tree status using the short format
+  s = status -s
+  
+  # Show the diff between the latest commit and the current state
+  d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+  
+  # `git di $number` shows the diff between the state `$number` revisions ago and the current state
+  di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
+  
+  # Pull in remote changes for the current repository and all its submodules
+  p = !"git pull; git submodule foreach git pull origin master"
+  
+  # Checkout a pull request from origin (of a github repository)
+  pr = !"pr() { git fetch origin pull/$1/head:pr-$1; git checkout pr-$1; }; pr"
+  
+  # Checkout a pull request from upstream (of a github repository)
+  prup = !"pr() { git fetch upstream pull/$1/head:pr-$1; git checkout pr-$1; }; pr"
+  
+  # Clone a repository including all submodules
+  c = clone --recursive
+  
+  # Commit all changes
+  ca = !git add -A && git commit -av
+  
+  # Switch to a branch, creating it if necessary
+  go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+  
+  # Color graph log view
+  graph = log --graph --color --pretty=format:"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
+  
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+  
+  # Amend the currently staged files to the latest commit
+  amend = commit --amend --reuse-message=HEAD
+  
+  # Credit an author on the latest commit
+  credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+  
+  # Interactive rebase with the given number of latest commits
+  reb = "!r() { git rebase -i HEAD~$1; }; r"
+  
+  # Find branches containing commit
+  fb = "!f() { git branch -a --contains $1; }; f"
+  
+  # Find tags containing commit
+  ft = "!f() { git describe --always --contains $1; }; f"
+  
+  # Find commits by source code
+  fc = "!f() { git log --pretty=format:'%C(yellow)%h	%Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
+  
+  # Find commits by commit message
+  fm = "!f() { git log --pretty=format:'%C(yellow)%h	%Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+  
+  # Remove branches that have already been merged with master
+  # a.k.a. ‘delete merged’
+  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  
+  # List contributors with number of commits
+  contributors = shortlog --summary --numbered
+  
+  lg = log --color --decorate --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an (%G?)>%Creset' --abbrev-commit
+  
+  mdiff = "!f() { git stash | head -1 | grep -q 'No local changes to save'; x=$?; git merge --no-commit $1 &>/dev/null; git add -u &>/dev/null; git diff --staged; git reset --hard &>/dev/null; test $x -ne 0 && git stash pop &>/dev/null; }; f"
+  
+  # see alias like bash `alias`
+  # from trevor bramble https://twitter.com/TrevorBramble/status/774292970681937920
+  alias=!git config -l | grep ^alias | cut -c 7- | sort
 
-		# View abbreviated SHA, description, and history graph of the latest 20 commits
-		l = log --pretty=oneline -n 20 --graph --abbrev-commit
+  # GitHub pull request aliases (https://gist.github.com/gnarf/5406589)
+  pr = !git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && :
+  pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
+  
+  # Moar logging!
+  ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  
+  # Others
+  st = status -sb
+  filelog = log -u
+  done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1}  && git push
+  unstage = reset HEAD --  
 
-		# View the current working tree status using the short format
-		s = status -s
-
-		# Show the diff between the latest commit and the current state
-		d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-
-		# `git di $number` shows the diff between the state `$number` revisions ago and the current state
-		di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
-
-		# Pull in remote changes for the current repository and all its submodules
-		p = !"git pull; git submodule foreach git pull origin master"
-
-		# Checkout a pull request from origin (of a github repository)
-		pr = !"pr() { git fetch origin pull/$1/head:pr-$1; git checkout pr-$1; }; pr"
-
-		# Checkout a pull request from upstream (of a github repository)
-		prup = !"pr() { git fetch upstream pull/$1/head:pr-$1; git checkout pr-$1; }; pr"
-
-		# Clone a repository including all submodules
-		c = clone --recursive
-
-		# Commit all changes
-		ca = !git add -A && git commit -av
-
-		# Switch to a branch, creating it if necessary
-		go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
-
-		# Color graph log view
-		graph = log --graph --color --pretty=format:"%C(yellow)%H%C(green)%d%C(reset)%n%x20%cd%n%x20%cn%x20(%ce)%n%x20%s%n"
-
-		# Show verbose output about tags, branches or remotes
-		tags = tag -l
-		branches = branch -a
-		remotes = remote -v
-
-		# Amend the currently staged files to the latest commit
-		amend = commit --amend --reuse-message=HEAD
-
-		# Credit an author on the latest commit
-		credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
-
-		# Interactive rebase with the given number of latest commits
-		reb = "!r() { git rebase -i HEAD~$1; }; r"
-
-		# Find branches containing commit
-		fb = "!f() { git branch -a --contains $1; }; f"
-
-		# Find tags containing commit
-		ft = "!f() { git describe --always --contains $1; }; f"
-
-		# Find commits by source code
-		fc = "!f() { git log --pretty=format:'%C(yellow)%h	%Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
-
-		# Find commits by commit message
-		fm = "!f() { git log --pretty=format:'%C(yellow)%h	%Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
-
-		# Remove branches that have already been merged with master
-		# a.k.a. ‘delete merged’
-		dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-
-		# List contributors with number of commits
-		contributors = shortlog --summary --numbered
-
-		lg = log --color --decorate --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an (%G?)>%Creset' --abbrev-commit
-
-		mdiff = "!f() { git stash | head -1 | grep -q 'No local changes to save'; x=$?; git merge --no-commit $1 &>/dev/null; git add -u &>/dev/null; git diff --staged; git reset --hard &>/dev/null; test $x -ne 0 && git stash pop &>/dev/null; }; f"
-
-		# see alias like bash `alias`
-		# from trevor bramble https://twitter.com/TrevorBramble/status/774292970681937920
-		alias=!git config -l | grep ^alias | cut -c 7- | sort
-
-		# GitHub pull request aliases (https://gist.github.com/gnarf/5406589)
-		pr = !git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && :
-		pr-clean = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
-		# Moar logging!
-    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
-    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-		# Others
-    st = status -sb
-    filelog = log -u
-    done = !git fetch && git rebase origin/master && git checkout master && git merge @{-1}  && git push
-    unstage = reset HEAD --
-
-		# Adding ideas from Harry Roberts on CSS Wizardry
-		stats = shortlog -sn
-		praise = blame
-		recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
-
-		recap = git log --all --oneline --no-merges --author=matthewbbroberg@gmail.com
-		today = log --since=00:00:00 --all --no-merges --oneline --author=matthewbbroberg@gmail.com
-
-
-
-[core]
-
-			# Use custom `.gitignore` and `.gitattributes`
-			excludesfile = ~/.gitignore
-			attributesfile = ~/.gitattributes
-
-			# Treat spaces before tabs and all kinds of trailing whitespace as an error
-			# [default] trailing-space: looks for spaces at the end of a line
-			# [default] space-before-tab: looks for spaces before tabs at the beginning of a line
-			whitespace = space-before-tab,-indent-with-non-tab,trailing-space
-
-			# Make `git rebase` safer on OS X
-			# More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
-			trustctime = false
-
+  # Adding ideas from Harry Roberts on CSS Wizardry
+  stats = shortlog -sn
+  praise = blame
+  recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"  
+  recap = git log --all --oneline --no-merges --author=matthewbbroberg@gmail.com
+  today = log --since=00:00:00 --all --no-merges --oneline --author=matthewbbroberg@gmail.com
 
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 
 [help]
-	autocorrect = 1
+  autocorrect = 1
 
 [push]
-	default = matching
+  default = matching
 
 [branch]
-	autosetupmerge = true
+  autosetupmerge = true
 
 [advice]
-	statusHints = false
+  statusHints = false
 
 
 [url "git@github.com:"]
-
-		pushInsteadOf = https://github.com/
-		pushInsteadOf = "github:"
-		pushInsteadOf = "git://github.com/"
+  pushInsteadOf = https://github.com/
+  pushInsteadOf = "github:"
+  pushInsteadOf = "git://github.com/"
 
 [url "git://github.com/"]
-
-		insteadOf = "github:"
+  insteadOf = "github:"
 
 [url "git@gist.github.com:"]
-
-		insteadOf = "gst:"
-		pushInsteadOf = "gist:"
-		pushInsteadOf = "git://gist.github.com/"
+  insteadOf = "gst:"
+  pushInsteadOf = "gist:"
+  pushInsteadOf = "git://gist.github.com/"
 
 [url "git://gist.github.com/"]
-
-		insteadOf = "gist:"
-
-
-#[init]
-# templatedir = ~/dotfiles/.git_template
-[http]
-	cookiefile = /Users/mbbroberg/.gitcookies
+  insteadOf = "gist:"
 
 [pager]
-	branch = false
+  branch = false
