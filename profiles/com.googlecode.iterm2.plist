@@ -40179,7 +40179,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/mbbroberg/Documents/Develop/dotfiles/profiles</string>
+	<string>/Users/mbbroberg/Develop/dotfiles/profiles</string>
 	<key>PromptOnQuit</key>
 	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -41169,7 +41169,7 @@
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
+													<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -42090,28 +42090,28 @@
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/mbbroberg/Documents/Develop/sensu-plugin-python</string>
+													<string>/Users/mbbroberg/Develop/sensu-plugin-python</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -42131,13 +42131,13 @@
 												<key>Session Name</key>
 												<string>..urce/docs/1.0</string>
 												<key>Session Window Title</key>
-												<string>mbbroberg@mbbroberg: ~/Documents/Develop/website/source/docs/1.0</string>
+												<string>mbbroberg@mbbroberg: ~/Develop/website/source/docs/1.0</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
+												<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -42966,106 +42966,106 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -43090,13 +43090,13 @@
 										<key>Session Name</key>
 										<string>..velop/website</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/website</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/website</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/website</string>
+										<string>/Users/mbbroberg/Develop/website</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -43931,94 +43931,94 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
 											<string>/Users/mbbroberg/go/src/github.com</string>
 											<string>/Users/mbbroberg/go/src/github.com</string>
 											<string>/Users/mbbroberg/go/src/github.com/jessfraz/audit</string>
@@ -44873,111 +44873,111 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -44997,13 +44997,13 @@
 										<key>Session Name</key>
 										<string>..ins.github.io</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/sensu-plugins.github.io</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/sensu-plugins.github.io</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+										<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -45838,111 +45838,111 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/mbbroberg/Documents/Develop/id</string>
+											<string>/Users/mbbroberg/Develop/id</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -45962,13 +45962,13 @@
 										<key>Session Name</key>
 										<string>..ins.github.io</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/sensu-plugins.github.io</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/sensu-plugins.github.io</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+										<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -46948,7 +46948,7 @@
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
+													<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -47869,28 +47869,28 @@
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
 													<string>/Users/mbbroberg/go/src/github.com/mbbroberg/dashboard/cmd/dashboard</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
-													<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/repo_man</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
+													<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
 												</array>
 												<key>Environment</key>
 												<dict>
 													<key>PWD</key>
-													<string>/Users/mbbroberg/Documents/Develop/sensu-plugin-python</string>
+													<string>/Users/mbbroberg/Develop/sensu-plugin-python</string>
 												</dict>
 												<key>Hosts</key>
 												<array/>
@@ -47910,13 +47910,13 @@
 												<key>Session Name</key>
 												<string>..urce/docs/1.0</string>
 												<key>Session Window Title</key>
-												<string>mbbroberg@mbbroberg: ~/Documents/Develop/website/source/docs/1.0</string>
+												<string>mbbroberg@mbbroberg: ~/Develop/website/source/docs/1.0</string>
 												<key>Shell Integration Ever Used</key>
 												<false/>
 												<key>Substitutions</key>
 												<dict/>
 												<key>Working Directory</key>
-												<string>/Users/mbbroberg/Documents/Develop/website/source/docs/1.0</string>
+												<string>/Users/mbbroberg/Develop/website/source/docs/1.0</string>
 											</dict>
 											<key>View Type</key>
 											<string>SessionView</string>
@@ -48745,106 +48745,106 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
 											<string>/Users/mbbroberg/Documents</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/terraform/github</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools/ghexplorer</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
-											<string>/Users/mbbroberg/Documents/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools/terraform/github</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools/ghexplorer</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
+											<string>/Users/mbbroberg/Develop/tools</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -48869,13 +48869,13 @@
 										<key>Session Name</key>
 										<string>..velop/website</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/website</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/website</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/website</string>
+										<string>/Users/mbbroberg/Develop/website</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -49710,94 +49710,94 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop/maintainers-governance</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
+											<string>/Users/mbbroberg/Develop/maintainers-governance</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
 											<string>/Users/mbbroberg/go/src/github.com</string>
 											<string>/Users/mbbroberg/go/src/github.com</string>
 											<string>/Users/mbbroberg/go/src/github.com/jessfraz/audit</string>
@@ -50652,111 +50652,111 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
-											<string>/Users/mbbroberg/Documents/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
+											<string>/Users/mbbroberg/Develop/community</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-skel</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-skel</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/mbbroberg/Documents/Develop/website</string>
+											<string>/Users/mbbroberg/Develop/website</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -50776,13 +50776,13 @@
 										<key>Session Name</key>
 										<string>..ins.github.io</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/sensu-plugins.github.io</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/sensu-plugins.github.io</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+										<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
@@ -51617,111 +51617,111 @@
 										<array/>
 										<key>Directories</key>
 										<array>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins-sensu</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop/repo_man</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
+											<string>/Users/mbbroberg/Develop/repo_man</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
 											<string>/Users/mbbroberg/Documents/Develop</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
-											<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Documents/Develop</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
+											<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 										</array>
 										<key>Environment</key>
 										<dict>
 											<key>PWD</key>
-											<string>/Users/mbbroberg/Documents/Develop/id</string>
+											<string>/Users/mbbroberg/Develop/id</string>
 										</dict>
 										<key>Hosts</key>
 										<array/>
@@ -51741,13 +51741,13 @@
 										<key>Session Name</key>
 										<string>..ins.github.io</string>
 										<key>Session Window Title</key>
-										<string>mbbroberg@mbbroberg: ~/Documents/Develop/sensu-plugins.github.io</string>
+										<string>mbbroberg@mbbroberg: ~/Develop/sensu-plugins.github.io</string>
 										<key>Shell Integration Ever Used</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
-										<string>/Users/mbbroberg/Documents/Develop/sensu-plugins.github.io</string>
+										<string>/Users/mbbroberg/Develop/sensu-plugins.github.io</string>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
