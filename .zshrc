@@ -7,13 +7,13 @@
 #	 ██████ ██████ ░██  ░██░███   ░░█████
 #	░░░░░░ ░░░░░░  ░░   ░░ ░░░     ░░░░░
 
-ZSH=$HOME/Documents/Develop/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
-ZSH_THEME="agnoster" # Set name of the theme to load from ./zsh-custom/themes/
+ZSH=$HOME/Develop/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
+ZSH_THEME="spaceship" # Set name of the theme to load from ./zsh-custom/themes/
 
 DEFAULT_USER="mbbroberg"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_AUTO_UPDATE=true
-ZSH_CUSTOM=$HOME/Documents/Develop/dotfiles/zsh-custom
+ZSH_CUSTOM=$HOME/Develop/dotfiles/zsh-custom
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 ZSH_HIGHLIGHT_PATTERNS=('rm -rf *' 'fg=white,bold,bg=red')
 
@@ -41,8 +41,8 @@ plugins=(
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 
-source $HOME/Documents/Develop/dotfiles/.oh-my-zsh/oh-my-zsh.sh
-for file in $HOME/Documents/Develop/dotfiles/zsh-custom/sourced/*; do
+source $HOME/Develop/dotfiles/.oh-my-zsh/oh-my-zsh.sh
+for file in $HOME/Develop/dotfiles/zsh-custom/sourced/*; do
    source "$file"
 done
 
