@@ -11,7 +11,7 @@ require 'rake'
 require 'fileutils'
 
 # These are all the files we want to symlink to ~
-FILES = '.gemrc .gitconfig .gitignore .vim .vimrc .zshrc .zlogin .hyper.js'
+FILES = '.gemrc .gitconfig .gitignore .vim .vimrc .zshrc .zlogin profiles/.hyper.js'
 
 
 task :default => 'install'
@@ -38,7 +38,7 @@ end
 
 def symlink_file( file )
 	source = "#{ENV["PWD"]}/#{file}"
-	target = "#{ENV["HOME"]}/#{file}"
+	target = "#{ENV["HOME"]}/#{file.split("/").last}"
 
 	puts "Source: #{source}"
 	puts "Target: #{target}"
