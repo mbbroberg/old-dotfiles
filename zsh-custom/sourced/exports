@@ -8,7 +8,11 @@
 #	 ░░░░░░ ░░   ░░ ░░       ░░░░░░  ░░░       ░░  ░░░░░░
 #
 
-export EDITOR="atom";
+export EDITOR="code";
+
+# for virtualenvwrapper for Python
+export WORKON_HOME=$HOME/.virtualenvs;
+export PROJECT_HOME=$HOME/Development;
 
 export GREP_OPTIONS="--color=auto";
 

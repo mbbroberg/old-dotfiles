@@ -507,10 +507,12 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>970 498 620 392 0 0 2560 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>617 118 1016 512 0 0 2560 1057 </string>
+	<string>1213 342 918 512 0 0 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 605 650 452 0 0 2560 1057 </string>
+	<string>569 -458 1440 435 569 -900 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>569 -896 1440 435 569 -900 1440 900 </string>
 	<key>NeverWarnAboutOverrides</key>
@@ -1965,7 +1967,7 @@
 			<key>Background Image Location</key>
 			<string></string>
 			<key>Badge Text</key>
-			<string>favorite</string>
+			<string></string>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
@@ -2501,7 +2503,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-01-21T22:43:23Z</date>
+	<date>2019-02-18T19:23:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2512,7 +2514,7 @@
 		<string>Command History</string>
 	</array>
 	<key>iTerm Version</key>
-	<string>3.2.6</string>
+	<string>3.2.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
