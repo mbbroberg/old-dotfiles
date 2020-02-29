@@ -1,30 +1,19 @@
-## Python
-
-show_virtual_env() {
-  if [[ -n "$VIRTUAL_ENV" && -n "$DIRENV_DIR" ]]; then
-    echo "($(basename $VIRTUAL_ENV))"
-  fi
-}
-export -f show_virtual_env
-PS1='$(show_virtual_env)'$PS1
+# Python
 
 ## pyenv needed
 eval "$(pyenv init -)"
 
-# for virtualenvwrapper for Python
-export WORKON_HOME=$HOME/.virtualenvs;
-export PROJECT_HOME=$HOME/Development;
-
-## //Python
-
-## Ruby 
+# Ruby 
 
 # rbenv needed
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-## General coding things 
+# General coding 
 
+if [ ! -f code ]; then
+    export EDITOR="vim";
+fi
 export EDITOR="code";
 
 # Direnv is lovely 
