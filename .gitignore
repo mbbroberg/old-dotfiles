@@ -7,6 +7,9 @@
 .DS_Store
 .direnv
 
+Brewfile.lock.json
+
+*ddress.txt
 password*
 keys*
 zsh-custom/sourced/secret

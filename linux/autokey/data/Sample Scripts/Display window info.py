@@ -1,0 +1,1 @@
+/home/mbbroberg/.config/autokey/data/Sample Scripts/Display window info.py

@@ -6,6 +6,9 @@ if not functions -q fisher
     fish -c fisher
 end
 
+# A prettier prompt
+starship init fish | source
+
 # Managing language versions with *env
 # From https://angristan.xyz/how-to-use-nvm-rbenv-pyenv-goenv-with-fish-shell/
 # If you run into issues with pyenv: https://github.com/pyenv/pyenv/issues/32#issuecomment-482980350
