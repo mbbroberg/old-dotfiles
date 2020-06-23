@@ -15,3 +15,4 @@ keys*
 zsh-custom/sourced/secret
 secret/
 .secret
+Brewfile.lock.json
