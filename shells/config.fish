@@ -9,6 +9,9 @@ end
 # A prettier prompt
 starship init fish | source
 
+# Workaround for .profile entry to kickstart Homebrew
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 # Managing language versions with *env
 # From https://angristan.xyz/how-to-use-nvm-rbenv-pyenv-goenv-with-fish-shell/
 # If you run into issues with pyenv: https://github.com/pyenv/pyenv/issues/32#issuecomment-482980350
