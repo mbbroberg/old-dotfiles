@@ -7,6 +7,10 @@
 .DS_Store
 .direnv
 
+Brewfile.lock.json
+__pycache__/
+venv/
+
 *ddress.txt
 password*
 keys*
