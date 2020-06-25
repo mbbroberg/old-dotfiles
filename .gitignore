@@ -8,6 +8,8 @@
 .direnv
 
 Brewfile.lock.json
+__pycache__/
+venv/
 
 *ddress.txt
 password*
@@ -15,4 +17,3 @@ keys*
 zsh-custom/sourced/secret
 secret/
 .secret
-Brewfile.lock.json
