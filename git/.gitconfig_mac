@@ -1,0 +1,3 @@
+[credential "https://github.com"]
+   helper = osxkeychain
+
