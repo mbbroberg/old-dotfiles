@@ -1,0 +1,9 @@
+- hosts: localhost
+  become: true
+  remote_user: mbbroberg
+  tasks:
+  - name: "Install my favorite utilities through Homebrew"
+    homebrew: 
+      state: present
+      formula: htop
+      path: "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin"
